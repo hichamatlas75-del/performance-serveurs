@@ -100,6 +100,22 @@ window.SERVERS_CATALOG = [
     role: "Service",
     photo: "images/WALID.jpg",
     aliases: ["WALID"]
+  },
+  {
+    id: "MOKHTAR",
+    name: "Mokhtar",
+    displayName: "Mokhtar",
+    role: "Serveur",
+    photo: "images/Mokhtar.jpg",
+    aliases: ["MOKHTAR", "MOUKHTAR", "MOKHTAR SERVEUR", "EL MOKHTAR", "MOKHTAR SERVICE"]
+  },
+  {
+    id: "QUASSIR_HICHAM",
+    name: "Quassir Hicham",
+    displayName: "Hicham Quassir",
+    role: "Responsable Salle",
+    photo: "images/QUASSIR_HICHAM.jpg",
+    aliases: ["QUASSIR", "HICHAM QUASSIR", "QUASSIR HICHAM", "HICHAM SALLE"]
   }
 ];
 
