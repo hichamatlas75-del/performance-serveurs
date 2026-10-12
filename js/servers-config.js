@@ -11,7 +11,7 @@ window.SERVERS_CATALOG = [
     displayName: "Abdelaziz Alaoui",
     role: "Serveur",
     photo: "images/HAMID_ALAOUI_ABDELAZIZ.jpg",
-    aliases: ["ALAOUI", "LAZIZ", "ABDELAZIZ", "HAMID ALAOUI", "ALAOUI ABDELAZIZ", "ALAOUI LAZIZ"]
+    aliases: ["ALAOUI", "LAZIZ", "AZIZ", "ABDELAZIZ", "HAMID ALAOUI", "ALAOUI ABDELAZIZ", "ALAOUI LAZIZ"]
   },
   {
     id: "HATTAF_MOHAMED",
@@ -19,7 +19,7 @@ window.SERVERS_CATALOG = [
     displayName: "Mohamed Hattaf",
     role: "Serveur",
     photo: "images/HATTAF_MOHAMMED.jpg",
-    aliases: ["HATTAF", "MOHAMED HATTAF", "MOHAMMED HATTAF", "HATTAF MOHAMMED", "SIMO HATTAF"]
+    aliases: ["HATTAF", "SIMO", "MOHAMED HATTAF", "MOHAMMED HATTAF", "HATTAF MOHAMMED", "SIMO HATTAF"]
   },
   {
     id: "HIDARA_YOUSSEF",
@@ -27,7 +27,7 @@ window.SERVERS_CATALOG = [
     displayName: "Youssef Hidara",
     role: "Serveur",
     photo: "images/HIDARA-LACHKAR_YOUSSEF.jpg",
-    aliases: ["HIDARA", "HIDARA YOUSSEF", "YOUSSEF HIDARA", "HIDARA LACHKAR", "LACHKAR"]
+    aliases: ["HIDARA", "YOUSSEF", "HIDARA YOUSSEF", "YOUSSEF HIDARA", "HIDARA LACHKAR", "LACHKAR"]
   },
   {
     id: "KAFOUNI_ZAKARIAE",
@@ -35,7 +35,7 @@ window.SERVERS_CATALOG = [
     displayName: "Zakariae Kafouni",
     role: "Serveur",
     photo: "images/KAFOUNI_ZAKARIAE.jpg",
-    aliases: ["KAFOUNI", "KAFOUNI ZAKARIAE", "ZAKARIAE KAFOUNI", "ZAKARIA KAFOUNI"]
+    aliases: ["KAFOUNI", "ZAKARIA", "KAFOUNI ZAKARIAE", "ZAKARIAE KAFOUNI", "ZAKARIA KAFOUNI"]
   },
   {
     id: "MOHSINE_YOUNESS",

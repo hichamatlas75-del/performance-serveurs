@@ -147,6 +147,42 @@
     let filesLoaded = 0;
 
     try {
+      // 0. Tenter en priorité le fichier de synthèse instantané flash_summary.json
+      const summarySources = [
+        'data/flash_summary.json',
+        `https://raw.githubusercontent.com/hichamatlas75-del/performance-serveurs/main/data/flash_summary.json?t=${Date.now()}`
+      ];
+
+      for (const sUrl of summarySources) {
+        try {
+          const sRes = await fetch(sUrl, { cache: 'no-store' });
+          if (sRes.ok) {
+            const summaryData = await sRes.json();
+            if (Array.isArray(summaryData) && summaryData.length > 0) {
+              summaryData.forEach(s => {
+                if (s && s.date) {
+                  // Re-résoudre les serveurs pour avoir les photos et alias à jour
+                  if (Array.isArray(s.servers)) {
+                    s.servers.forEach(item => {
+                      if (item.rawName) {
+                        item.server = findServerByRawName(item.rawName);
+                      }
+                    });
+                  }
+                  AppState.sessions.set(s.date, s);
+                  AppState.availableMonths.add(s.yearMonth || s.date.slice(0, 7));
+                  filesLoaded++;
+                }
+              });
+              console.log(`⚡ [Summary] ${summaryData.length} sessions chargées instantanément depuis ${sUrl}`);
+              break;
+            }
+          }
+        } catch (errSummary) {
+          // fallback continue
+        }
+      }
+
       // 1. Tenter de lire le manifest flash_serveurs/manifest.json sur GitHub
       const manifestUrl = `https://raw.githubusercontent.com/hichamatlas75-del/Fiche-technique/main/flash_serveurs/manifest.json?t=${Date.now()}`;
       const res = await fetch(manifestUrl, { cache: 'no-store' });
@@ -155,6 +191,10 @@
         const manifest = await res.json();
         if (manifest && Array.isArray(manifest.files)) {
           for (const relPath of manifest.files) {
+            const dateMatch = relPath.match(/(\d{4})(\d{2})(\d{2})/);
+            const dKey = dateMatch ? `${dateMatch[1]}-${dateMatch[2]}-${dateMatch[3]}` : null;
+            if (dKey && AppState.sessions.has(dKey)) continue; // Déjà chargé
+
             const rawFileUrl = `https://raw.githubusercontent.com/hichamatlas75-del/Fiche-technique/main/flash_serveurs/${relPath}`;
             const fileRes = await fetch(rawFileUrl);
             if (fileRes.ok) {
@@ -171,7 +211,7 @@
         }
       }
     } catch (e) {
-      console.log("GitHub sync note (manifest non encore en ligne ou en attente) :", e);
+      console.log("GitHub sync note :", e);
     }
 
     if (filesLoaded > 0) {

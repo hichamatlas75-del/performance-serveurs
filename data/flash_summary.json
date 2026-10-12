@@ -1,0 +1,3016 @@
+[
+  {
+    "fileName": "Flash_Journee_20260829.xls",
+    "date": "2026-08-29",
+    "yearMonth": "2026-08",
+    "totalNetGlobal": 11508.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3583.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2781.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1117.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1679.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1416.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 844.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 88.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260830.xls",
+    "date": "2026-08-30",
+    "yearMonth": "2026-08",
+    "totalNetGlobal": 14876.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2348.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 3300.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1991.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3831.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1828.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1578.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260831.xls",
+    "date": "2026-08-31",
+    "yearMonth": "2026-08",
+    "totalNetGlobal": 10437.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3344.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 4008.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 248.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1592.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1245.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260901.xls",
+    "date": "2026-09-01",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 13879.6,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3623.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 5593.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 54.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2284.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2325.6,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260902.xls",
+    "date": "2026-09-02",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 11884.6,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3375.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 4130.6,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2148.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2231.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260904.xls",
+    "date": "2026-09-04",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 13579.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 4655.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 4604.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2891.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1429.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260905.xls",
+    "date": "2026-09-05",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 14774.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3180.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2065.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3388.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 70.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2797.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 866.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2408.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260906.xls",
+    "date": "2026-09-06",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 16899.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2771.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3938.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3336.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 145.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2023.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 3127.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1559.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260907.xls",
+    "date": "2026-09-07",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 8978.0,
+    "servers": [
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2994.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2173.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 421.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1539.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1851.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260908.xls",
+    "date": "2026-09-08",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 11385.0,
+    "servers": [
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 3427.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 3393.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 222.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2249.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2094.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260909.xls",
+    "date": "2026-09-09",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 9792.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2551.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2456.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1920.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2865.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260910.xls",
+    "date": "2026-09-10",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 10985.0,
+    "servers": [
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2186.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2107.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 176.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1504.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1793.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 1322.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1897.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260911.xls",
+    "date": "2026-09-11",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 11363.0,
+    "servers": [
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1819.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2725.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2664.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 166.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 1880.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 813.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1296.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260912.xls",
+    "date": "2026-09-12",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 15618.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3354.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2933.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2732.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 2347.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2390.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1862.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260913.xls",
+    "date": "2026-09-13",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 16201.0,
+    "servers": [
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 4255.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1792.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1200.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 88.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3750.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 2112.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 3004.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260914.xls",
+    "date": "2026-09-14",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 9969.6,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2135.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 4495.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 176.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1353.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1810.6,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260915.xls",
+    "date": "2026-09-15",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 9405.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3408.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1990.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 98.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2310.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1599.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260916.xls",
+    "date": "2026-09-16",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 10814.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3511.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3978.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 150.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1499.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1676.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260917.xls",
+    "date": "2026-09-17",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 11263.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3413.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 3338.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1515.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1083.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1914.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260918.xls",
+    "date": "2026-09-18",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 12900.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3901.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2117.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 168.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1945.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2228.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2541.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260919.xls",
+    "date": "2026-09-19",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 14250.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 3103.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3089.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 102.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2667.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2954.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2335.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260920.xls",
+    "date": "2026-09-20",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 18003.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 2284.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2762.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 183.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1829.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 3575.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3127.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 4243.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260921.xls",
+    "date": "2026-09-21",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 7882.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2228.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2577.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 78.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1255.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1744.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260922.xls",
+    "date": "2026-09-22",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 10092.6,
+    "servers": [
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2914.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 3247.6,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 40.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2187.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1704.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260923.xls",
+    "date": "2026-09-23",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 8882.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2213.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2760.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1824.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1986.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 99.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260924.xls",
+    "date": "2026-09-24",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 10571.0,
+    "servers": [
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1621.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1568.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2642.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2532.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 1104.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1104.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260925.xls",
+    "date": "2026-09-25",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 9508.2,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2090.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1990.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1571.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 437.2,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2221.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1199.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260926.xls",
+    "date": "2026-09-26",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 13434.0,
+    "servers": [
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2691.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2390.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1695.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1509.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2115.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3034.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260927.xls",
+    "date": "2026-09-27",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 15759.0,
+    "servers": [
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 3732.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2239.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 72.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1931.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2891.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 2208.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2686.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260928.xls",
+    "date": "2026-09-28",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 8060.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1410.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 3206.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 65.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1405.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1974.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260929.xls",
+    "date": "2026-09-29",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 10229.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3173.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1900.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2172.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2984.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20260930.xls",
+    "date": "2026-09-30",
+    "yearMonth": "2026-09",
+    "totalNetGlobal": 11713.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2848.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2459.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 4138.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2268.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261001.xls",
+    "date": "2026-10-01",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 11130.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1612.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3743.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1016.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 78.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1403.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1575.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1703.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261002.xls",
+    "date": "2026-10-02",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 9402.0,
+    "servers": [
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2458.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1757.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1230.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 1989.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 872.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1096.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261003.xls",
+    "date": "2026-10-03",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 16315.6,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 6134.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1858.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2008.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 143.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2147.6,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1445.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2580.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261004.xls",
+    "date": "2026-10-04",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 16781.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3987.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2609.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2633.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_MOHAMED",
+          "displayName": "MOHAMED",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "MOHAMED",
+        "totalNet": 2678.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2291.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2583.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261005.xls",
+    "date": "2026-10-05",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 9645.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 2322.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 2525.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2493.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2305.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261006.xls",
+    "date": "2026-10-06",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 11988.8,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3496.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3726.8,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2450.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2143.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 173.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261007.xls",
+    "date": "2026-10-07",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 8621.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3743.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1451.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 138.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 1865.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1424.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261008.xls",
+    "date": "2026-10-08",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 7361.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 1681.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2426.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2091.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1163.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261009.xls",
+    "date": "2026-10-09",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 7463.1,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2438.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1930.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 1518.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 1577.1,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261010.xls",
+    "date": "2026-10-10",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 14495.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3771.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3980.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 180.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 1473.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 2428.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2663.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261011.xls",
+    "date": "2026-10-11",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 16065.0,
+    "servers": [
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 3267.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 3243.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "SRV_EMP--GLOVO",
+          "displayName": "EMP--GLOVO",
+          "role": "Serveur",
+          "photo": null
+        },
+        "rawName": "EMP--GLOVO",
+        "totalNet": 256.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2626.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2918.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "ALAOUI_LAZIZ",
+          "displayName": "Abdelaziz Alaoui",
+          "role": "Serveur",
+          "photo": "images/HAMID_ALAOUI_ABDELAZIZ.jpg"
+        },
+        "rawName": "ABDELAZIZ",
+        "totalNet": 3755.0,
+        "tickets": 0
+      }
+    ]
+  },
+  {
+    "fileName": "Flash_Journee_20261012.xls",
+    "date": "2026-10-12",
+    "yearMonth": "2026-10",
+    "totalNetGlobal": 7094.0,
+    "servers": [
+      {
+        "server": {
+          "id": "MOHSINE_YOUNESS",
+          "displayName": "Youness Mohssine",
+          "role": "Serveur",
+          "photo": "images/MOHSSINE_YOUNESS.jpg"
+        },
+        "rawName": "YOUNESS",
+        "totalNet": 2156.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "MOKHTAR",
+          "displayName": "Mokhtar",
+          "role": "Serveur",
+          "photo": "images/Mokhtar.jpg"
+        },
+        "rawName": "MOKHTAR",
+        "totalNet": 1652.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "HIDARA_YOUSSEF",
+          "displayName": "Youssef Hidara",
+          "role": "Serveur",
+          "photo": "images/HIDARA-LACHKAR_YOUSSEF.jpg"
+        },
+        "rawName": "YOUSSEF",
+        "totalNet": 2368.0,
+        "tickets": 0
+      },
+      {
+        "server": {
+          "id": "KAFOUNI_ZAKARIAE",
+          "displayName": "Zakariae Kafouni",
+          "role": "Serveur",
+          "photo": "images/KAFOUNI_ZAKARIAE.jpg"
+        },
+        "rawName": "ZAKARIA",
+        "totalNet": 918.0,
+        "tickets": 0
+      }
+    ]
+  }
+]
