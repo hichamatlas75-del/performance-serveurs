@@ -1541,7 +1541,7 @@
     try {
       if (typeof html2canvas !== 'undefined') {
         const canvas = await html2canvas(certEl, {
-          scale: 2, // Haute résolution 300dpi / Retina
+          scale: 2.2, // Rendu ultra-net 1080px+ format smartphone HD
           useCORS: true,
           allowTaint: true,
           backgroundColor: null,
@@ -1551,10 +1551,10 @@
         const link = document.createElement('a');
         const nameClean = (document.getElementById('cert-recipient-name')?.innerText || 'Serveur').trim().replace(/\s+/g, '_');
         const periodClean = (document.getElementById('cert-period-select')?.value || 'Mois').replace(/\s+/g, '_');
-        link.download = `Certificat_Meilleur_Vendeur_${nameClean}_${periodClean}.png`;
+        link.download = `Certificat_Mobile_Meilleur_Vendeur_${nameClean}_${periodClean}.png`;
         link.href = canvas.toDataURL('image/png');
         link.click();
-        showToast("🎉 Certificat téléchargé avec succès en haute définition !");
+        showToast("🎉 Certificat Mobile HD téléchargé avec succès !");
       } else {
         showToast("ℹ️ Impression lancée pour enregistrement PDF.");
         window.print();

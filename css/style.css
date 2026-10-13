@@ -1425,16 +1425,17 @@ body {
   background: #0f1015;
 }
 
-/* ── Diplôme Format A4 Décoré ────────────────────────────────── */
+/* ── Diplôme Format Mobile Portrait Décoré (Type Affiche / Story Smartphone) ── */
 .certificate-diploma {
   width: 100%;
-  max-width: 960px;
+  max-width: 490px;
   position: relative;
-  border-radius: 4px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+  border-radius: 6px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.55);
   font-family: var(--font-sans);
   user-select: none;
   transition: all 0.3s ease;
+  margin: 0 auto;
 }
 
 /* THEME IVOIRE ROYAL (PAR DÉFAUT) */
@@ -1445,13 +1446,13 @@ body {
 
 .certificate-diploma.theme-ivory .cert-outer-border {
   border: 4px double #b8860b;
-  outline: 10px solid #f6f0e2;
-  box-shadow: inset 0 0 50px rgba(184, 134, 11, 0.08);
+  outline: 8px solid #f6f0e2;
+  box-shadow: inset 0 0 45px rgba(184, 134, 11, 0.08);
 }
 
 .certificate-diploma.theme-ivory .cert-inner-border {
   border: 1px dashed rgba(184, 134, 11, 0.6);
-  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.95) 0%, rgba(250, 244, 230, 0.98) 100%);
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.96) 0%, rgba(250, 244, 230, 0.98) 100%);
 }
 
 .certificate-diploma.theme-ivory .cert-main-title {
@@ -1464,12 +1465,29 @@ body {
 }
 
 .certificate-diploma.theme-ivory .cert-metric-item {
-  background: rgba(255, 255, 255, 0.88);
+  background: rgba(255, 255, 255, 0.9);
   border: 1px solid rgba(184, 134, 11, 0.3);
 }
 
 .certificate-diploma.theme-ivory .cert-metric-val {
   color: #7c581c;
+}
+
+.certificate-diploma.theme-ivory .cert-rewards-box {
+  background: linear-gradient(135deg, rgba(184, 134, 11, 0.08) 0%, rgba(246, 240, 226, 0.92) 100%);
+  border: 1.5px solid rgba(184, 134, 11, 0.45);
+  color: #1a1815;
+}
+
+.certificate-diploma.theme-ivory .cert-team-thanks {
+  background: rgba(184, 134, 11, 0.07);
+  border-left: 3px solid #b8860b;
+  color: #3b2b0a;
+}
+
+.certificate-diploma.theme-ivory .cert-next-challenge {
+  background: linear-gradient(135deg, #b8860b 0%, #7c581c 100%);
+  color: #ffffff;
 }
 
 /* THEME NUIT IMPÉRIALE (NOIR & OR) */
@@ -1480,13 +1498,13 @@ body {
 
 .certificate-diploma.theme-dark .cert-outer-border {
   border: 4px double #d4af37;
-  outline: 10px solid #161522;
+  outline: 8px solid #161522;
   box-shadow: inset 0 0 60px rgba(212, 175, 55, 0.15);
 }
 
 .certificate-diploma.theme-dark .cert-inner-border {
   border: 1px dashed rgba(212, 175, 55, 0.5);
-  background: radial-gradient(circle at center, rgba(26, 24, 38, 0.88) 0%, rgba(13, 12, 19, 0.98) 100%);
+  background: radial-gradient(circle at center, rgba(26, 24, 38, 0.9) 0%, rgba(13, 12, 19, 0.99) 100%);
 }
 
 .certificate-diploma.theme-dark .cert-intro-text,
@@ -1504,12 +1522,29 @@ body {
 }
 
 .certificate-diploma.theme-dark .cert-metric-item {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(212, 175, 55, 0.3);
 }
 
 .certificate-diploma.theme-dark .cert-metric-val {
   color: #e6ce96;
+}
+
+.certificate-diploma.theme-dark .cert-rewards-box {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.12) 0%, rgba(26, 24, 38, 0.92) 100%);
+  border: 1.5px solid rgba(212, 175, 55, 0.4);
+  color: #f8fafc;
+}
+
+.certificate-diploma.theme-dark .cert-team-thanks {
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid #d4af37;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.certificate-diploma.theme-dark .cert-next-challenge {
+  background: linear-gradient(135deg, #d4af37 0%, #aa771c 100%);
+  color: #1a1508;
 }
 
 .certificate-diploma.theme-dark .cert-footer-col {
@@ -1518,12 +1553,12 @@ body {
 
 /* BORDURES & COINS */
 .cert-outer-border {
-  padding: 14px;
+  padding: 10px;
   position: relative;
 }
 
 .cert-inner-border {
-  padding: 26px 34px;
+  padding: 20px 22px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -1755,9 +1790,81 @@ body {
 }
 
 .cert-metric-sub {
-  font-size: 9.5px;
+  font-size: 9px;
   opacity: 0.65;
   margin-top: 2px;
+}
+
+/* ── Récompenses & Privilèges du Meilleur Vendeur ── */
+.cert-rewards-box {
+  width: 100%;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  text-align: left;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.cert-rewards-title {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #d4af37;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 8px;
+}
+
+.cert-rewards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.cert-reward-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.cert-reward-icon {
+  font-size: 17px;
+  flex-shrink: 0;
+}
+
+/* ── Remerciements collectifs à toute l'équipe ── */
+.cert-team-thanks {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 12px;
+  border-radius: 0 8px 8px 0;
+}
+
+.cert-team-quote {
+  font-style: italic;
+  font-size: 11.5px;
+  line-height: 1.45;
+  text-align: center;
+  opacity: 0.95;
+  font-family: var(--font-serif);
+}
+
+/* ── Teaser & Défi Mois Prochain ── */
+.cert-next-challenge {
+  width: 100%;
+  font-weight: 800;
+  font-size: 12px;
+  padding: 8px 14px;
+  border-radius: 99px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 14px rgba(212, 175, 55, 0.35);
 }
 
 /* PIED DE PAGE */

@@ -36,11 +36,19 @@ Application web indépendante de suivi du chiffre d'affaires et de la performanc
    - Données précompilées (`flash_summary.js` & `flash_summary.json`) garantissant un affichage instantané même en local direct (`file://`).
    - Synchronisation automatique avec GitHub.
 
-7. **Diplôme d'Honneur & Certificat Décoré du Meilleur Vendeur 📜** :
-   - **Génération automatique par mois ou au cumul** : Sélection de n'importe quel mois (Août, Septembre, Octobre...) ou du cumul général pour générer le certificat officiel du champion.
-   - **Mise en page de prestige** : Photo officielle avec médaillon et lauriers dorés, cadre baroque, sceau d'or officiel en relief avec rubans, chiffres clés certifiés (CA Net, part de marché, moyenne/j) et signature de la direction.
-   - **Double thème graphique** : Bascule en un clic entre *Ivoire Royal* (idéal pour impression papier) et *Nuit Impériale* (noir et or pour écrans).
-   - **Export multi-formats** : Téléchargement en Image Haute Définition (PNG HD 300 DPI) et Impression / Sauvegarde directe en PDF A4 Paysage.
+7. **Diplôme d'Honneur & Certificat Décoré du Meilleur Vendeur (Format Mobile) 📜** :
+   - **Génération automatique par mois ou au cumul** : Sélection de n'importe quel mois (Août, Septembre, Octobre...) ou du cumul général pour générer l'affiche officielle du champion.
+   - **Format Mobile / WhatsApp HD** : Conçu spécialement au format portrait smartphone (affiche HD 1080px) pour un partage instantané sur WhatsApp et mobile.
+   - **Récompenses & Privilèges du Vainqueur** :
+     - 🎂 *Un délicieux gâteau gourmand à partager en famille à la maison*
+     - 🍽️ *Une remise exceptionnelle de 50 % sur un repas au restaurant*
+   - **Remerciements Collectifs à l'Équipe** :
+     - *« Un grand merci également à l’ensemble de l'équipe — cuisine, bar, caisse et salle — car c’est grâce au travail et à la fluidité de chacun que ces beaux résultats sont possibles ! »*
+   - **Défi & Teaser** :
+     - *« Rendez-vous à la fin du mois prochain pour le nouveau classement ! 🔥 »*
+   - **Mise en page de prestige** : Photo officielle avec médaillon et lauriers dorés, cadre baroque, sceau d'or officiel en relief avec rubans, chiffres clés certifiés et signature de la direction.
+   - **Double thème graphique** : Bascule en un clic entre *Ivoire Royal* et *Nuit Impériale* (noir et or).
+   - **Export multi-formats** : Téléchargement en Image Smartphone HD (PNG) et Impression / Sauvegarde en PDF.
 
 ---
 
