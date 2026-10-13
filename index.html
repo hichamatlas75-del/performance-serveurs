@@ -19,6 +19,8 @@
   <!-- SheetJS & Chart.js -->
   <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <!-- html2canvas pour export HD du Certificat -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/style.css">
@@ -46,6 +48,11 @@
         <button id="btn-theme-toggle" class="btn btn-ghost" title="Basculer Mode Clair / Sombre">
           <i class="fa-solid fa-moon"></i>
           <span>Mode Sombre</span>
+        </button>
+
+        <button id="btn-cert-header" class="btn btn-gold" title="Générer le Diplôme & Certificat d'Honneur">
+          <i class="fa-solid fa-award"></i>
+          <span>Certificat d'Honneur</span>
         </button>
 
         <button id="btn-sync" class="btn btn-primary" title="Synchroniser avec GitHub">
@@ -233,6 +240,150 @@
         </div>
         <div id="modal-body-content" class="modal-body">
           <!-- Rempli dynamiquement -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Modal Certificat d'Honneur Décoré ─────────────────────── -->
+    <div id="certificate-modal-overlay" class="modal-overlay cert-modal-overlay">
+      <div class="modal-card cert-modal-card">
+        <!-- Barre de commandes du certificat -->
+        <div class="cert-toolbar">
+          <div class="cert-toolbar-left">
+            <div class="cert-toolbar-title">
+              <i class="fa-solid fa-award" style="color: var(--gold);"></i>
+              <span>Diplôme d'Excellence & Meilleur Vendeur</span>
+            </div>
+            <div class="cert-select-wrapper">
+              <label for="cert-period-select" class="cert-select-label">Période :</label>
+              <select id="cert-period-select" class="cert-period-select">
+                <!-- Rempli dynamiquement -->
+              </select>
+            </div>
+          </div>
+
+          <div class="cert-toolbar-actions">
+            <button id="btn-cert-theme-toggle" class="btn btn-ghost" title="Basculer le style du diplôme (Ivoire Royal / Nuit Impériale)">
+              <i class="fa-solid fa-palette"></i>
+              <span id="cert-theme-label">Style Nuit Impériale</span>
+            </button>
+            <button id="btn-cert-download-png" class="btn btn-primary" title="Télécharger l'image HD en PNG">
+              <i class="fa-solid fa-download"></i>
+              <span>Télécharger (PNG HD)</span>
+            </button>
+            <button id="btn-cert-print-pdf" class="btn btn-gold" title="Imprimer ou enregistrer au format PDF A4 Paysage">
+              <i class="fa-solid fa-print"></i>
+              <span>Imprimer / PDF (A4)</span>
+            </button>
+            <button id="cert-modal-close" class="modal-close" title="Fermer"><i class="fa-solid fa-xmark"></i></button>
+          </div>
+        </div>
+
+        <!-- Zone de prévisualisation du Certificat (Format A4 Paysage) -->
+        <div class="cert-preview-wrapper">
+          <div id="certificate-diploma" class="certificate-diploma theme-ivory">
+            <div class="cert-outer-border">
+              <!-- Coins dorés ornementaux -->
+              <div class="cert-corner cert-corner-tl"></div>
+              <div class="cert-corner cert-corner-tr"></div>
+              <div class="cert-corner cert-corner-bl"></div>
+              <div class="cert-corner cert-corner-br"></div>
+
+              <div class="cert-inner-border">
+                <div class="cert-watermark"></div>
+
+                <!-- En-tête -->
+                <div class="cert-header">
+                  <div class="cert-header-stars">★ ★ ★ ★ ★</div>
+                  <div class="cert-brand-row">
+                    <img src="images/LOGO.jpg" alt="Grey Corner" class="cert-logo" onerror="this.style.display='none'">
+                    <div>
+                      <div class="cert-brand-name">GREY CORNER</div>
+                      <div class="cert-brand-sub">RESTAURANT & LOUNGE · HAUTE GASTRONOMIE</div>
+                    </div>
+                  </div>
+                  <h1 class="cert-main-title">DIPLÔME D’HONNEUR & D’EXCELLENCE</h1>
+                  <div class="cert-badge-ribbon">
+                    <span class="cert-ribbon-text" id="cert-ribbon-text">MEILLEUR VENDEUR DU MOIS</span>
+                  </div>
+                </div>
+
+                <!-- Corps -->
+                <div class="cert-body">
+                  <p class="cert-intro-text">Le présent titre d'excellence est solennellement décerné à</p>
+
+                  <div class="cert-recipient-section">
+                    <div class="cert-photo-container">
+                      <div class="cert-laurel-wreath cert-laurel-left">🌿</div>
+                      <div class="cert-photo-frame">
+                        <img id="cert-recipient-photo" src="images/LOGO.jpg" alt="Photo Serveur" class="cert-photo-img" />
+                      </div>
+                      <div class="cert-laurel-wreath cert-laurel-right">🌿</div>
+                    </div>
+
+                    <div class="cert-recipient-name" id="cert-recipient-name">Abdelaziz Alaoui</div>
+                    <div class="cert-recipient-role" id="cert-recipient-role">Serveur d’Élite · Champion de la Performance Salle</div>
+                  </div>
+
+                  <p class="cert-appreciation-text" id="cert-appreciation-text">
+                    En reconnaissance officielle de ses performances commerciales d'exception, de son dévouement remarquable auprès de la clientèle et de son leadership exemplaire au sein de l'équipe du restaurant Grey Corner.
+                  </p>
+
+                  <!-- 3 Blocs de Métriques Officielles -->
+                  <div class="cert-metrics-grid">
+                    <div class="cert-metric-item">
+                      <div class="cert-metric-lbl">Chiffre d'Affaires Net</div>
+                      <div class="cert-metric-val" id="cert-metric-revenue">71 675 DH</div>
+                      <div class="cert-metric-sub">Recette certifiée en caisse</div>
+                    </div>
+
+                    <div class="cert-metric-item highlight">
+                      <div class="cert-metric-lbl">Part de Marché Salle</div>
+                      <div class="cert-metric-val" id="cert-metric-share">19.9%</div>
+                      <div class="cert-metric-sub">du C.A. total de l'équipe</div>
+                    </div>
+
+                    <div class="cert-metric-item">
+                      <div class="cert-metric-lbl">Moyenne Journalière</div>
+                      <div class="cert-metric-val" id="cert-metric-avg">2 867 DH / j</div>
+                      <div class="cert-metric-sub" id="cert-metric-days">sur 25 journées actives</div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Pied de page -->
+                <div class="cert-footer">
+                  <div class="cert-footer-col cert-footer-left">
+                    <div class="cert-issue-date" id="cert-issue-date">Délivré à Tanger, le 30 Septembre 2026</div>
+                    <div class="cert-registry-note">Certifié authentique & conforme aux états de caisse</div>
+                  </div>
+
+                  <div class="cert-footer-col cert-footer-seal">
+                    <div class="cert-gold-seal">
+                      <div class="cert-seal-outer">
+                        <div class="cert-seal-inner">
+                          <i class="fa-solid fa-crown cert-seal-icon"></i>
+                          <div class="cert-seal-text">N°1 DES VENTES</div>
+                          <div class="cert-seal-sub">EXCELLENCE</div>
+                        </div>
+                      </div>
+                      <div class="cert-seal-ribbons">
+                        <div class="cert-ribbon-left"></div>
+                        <div class="cert-ribbon-right"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cert-footer-col cert-footer-right">
+                    <div class="cert-sign-title">La Direction Générale</div>
+                    <div class="cert-sign-script">Grey Corner Management</div>
+                    <div class="cert-sign-line"></div>
+                    <div class="cert-sign-sub">Cachet & Signature de Validation</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

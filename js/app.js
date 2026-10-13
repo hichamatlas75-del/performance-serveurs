@@ -240,6 +240,43 @@
         if (e.target === modalOverlay) modalOverlay.classList.remove('active');
       });
     }
+
+    // Modal Certificat d'Honneur
+    const btnCertHeader = document.getElementById('btn-cert-header');
+    if (btnCertHeader) {
+      btnCertHeader.addEventListener('click', () => openCertificateModal(AppState.selectedMonth));
+    }
+
+    const certModalClose = document.getElementById('cert-modal-close');
+    const certModalOverlay = document.getElementById('certificate-modal-overlay');
+    if (certModalClose && certModalOverlay) {
+      certModalClose.addEventListener('click', () => certModalOverlay.classList.remove('active'));
+      certModalOverlay.addEventListener('click', (e) => {
+        if (e.target === certModalOverlay) certModalOverlay.classList.remove('active');
+      });
+    }
+
+    const certPeriodSelect = document.getElementById('cert-period-select');
+    if (certPeriodSelect) {
+      certPeriodSelect.addEventListener('change', (e) => {
+        updateCertificateContent(e.target.value);
+      });
+    }
+
+    const btnCertTheme = document.getElementById('btn-cert-theme-toggle');
+    if (btnCertTheme) {
+      btnCertTheme.addEventListener('click', toggleCertificateTheme);
+    }
+
+    const btnCertDownloadPng = document.getElementById('btn-cert-download-png');
+    if (btnCertDownloadPng) {
+      btnCertDownloadPng.addEventListener('click', downloadCertificatePng);
+    }
+
+    const btnCertPrintPdf = document.getElementById('btn-cert-print-pdf');
+    if (btnCertPrintPdf) {
+      btnCertPrintPdf.addEventListener('click', () => window.print());
+    }
   }
 
   // ==============================================================================
@@ -776,6 +813,12 @@
           <div><strong>${entry.daysWorked}</strong> j travaillés</div>
           <div><strong>${formatDH(entry.dailyAverage)}</strong> / jour</div>
         </div>
+
+        ${isFirst ? `
+          <button type="button" class="btn-cert-podium" onclick="event.stopPropagation(); window.GC_App_OpenCertificate('${AppState.selectedMonth}')" title="Générer le Certificat d'Honneur officiel">
+            <i class="fa-solid fa-award"></i> Certificat d'Honneur
+          </button>
+        ` : ''}
       </div>
     `;
   }
@@ -845,7 +888,7 @@
                 <div class="month-cell-box">
                   <div class="month-cell-amt">
                     ${formatDH(mData.totalNet)}
-                    ${isWinner ? '<span class="month-winner-badge" title="Meilleur serveur de ce mois">⭐</span>' : ''}
+                    ${isWinner ? `<span class="month-winner-badge interactive" title="Vainqueur du mois : Cliquez pour voir son Diplôme d'Honneur !" onclick="event.stopPropagation(); window.GC_App_OpenCertificate('${ym}')">⭐</span>` : ''}
                   </div>
                   <div class="month-cell-meta">${mData.daysWorked} j</div>
                 </div>
@@ -927,7 +970,7 @@
             const mLabel = getShortMonthLabel(ym);
             return `
               <div class="cumul-card-month-cell">
-                <div class="cumul-card-month-name">${mLabel} ${isWinner ? '⭐' : ''}</div>
+                <div class="cumul-card-month-name">${mLabel} ${isWinner ? `<span class="month-winner-badge interactive" title="Vainqueur : voir le Diplôme" onclick="event.stopPropagation(); window.GC_App_OpenCertificate('${ym}')">⭐</span>` : ''}</div>
                 <div class="cumul-card-month-val">${formatDH(mData.totalNet)}</div>
                 <div class="cumul-card-month-days">${mData.daysWorked} j</div>
               </div>
@@ -1165,12 +1208,17 @@
     }
 
     modalBody.innerHTML = `
-      <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 22px;">
-        ${avatarHtml}
-        <div>
-          <div style="font-family: var(--font-serif); font-size: 26px; font-weight: 700; color: var(--gold-light); line-height: 1.1;">${s.displayName || s.name}</div>
-          <div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">${s.role} · Restaurant Grey Corner</div>
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; margin-bottom: 22px;">
+        <div style="display: flex; align-items: center; gap: 16px;">
+          ${avatarHtml}
+          <div>
+            <div style="font-family: var(--font-serif); font-size: 26px; font-weight: 700; color: var(--gold-light); line-height: 1.1;">${s.displayName || s.name}</div>
+            <div style="font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">${s.role} · Restaurant Grey Corner</div>
+          </div>
         </div>
+        <button type="button" class="btn btn-gold" style="padding: 7px 15px; font-size: 12px;" onclick="window.GC_App_OpenCertificate(AppState.selectedMonth, '${s.id}')">
+          <i class="fa-solid fa-award"></i> Certificat d'Honneur
+        </button>
       </div>
 
       <div style="font-size: 12px; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 8px;">
@@ -1307,5 +1355,223 @@
       t.style.transform = 'translateY(10px)';
     }, 4000);
   }
+
+  // ==============================================================================
+  // MOTEUR DU CERTIFICAT D'HONNEUR & EXPORT DU MEILLEUR VENDEUR
+  // ==============================================================================
+  let certSelectedServerId = null;
+
+  function openCertificateModal(targetPeriod = AppState.selectedMonth, forcedServerId = null) {
+    const modal = document.getElementById('certificate-modal-overlay');
+    const select = document.getElementById('cert-period-select');
+    if (!modal || !select) return;
+
+    certSelectedServerId = forcedServerId;
+
+    // Remplir le sélecteur de périodes du certificat
+    const available = Array.from(AppState.availableMonths)
+      .filter(m => m >= MIN_TRACKING_MONTH);
+    ['2026-10', '2026-09', '2026-08'].forEach(m => {
+      if (!available.includes(m)) available.push(m);
+    });
+    available.sort().reverse();
+
+    const options = [
+      { key: 'ALL', label: '🏆 Cumul Général (Août — Octobre 2026)' },
+      ...available.map(k => ({ key: k, label: getMonthFullLabel(k) }))
+    ];
+
+    select.innerHTML = options.map(o => `
+      <option value="${o.key}" ${o.key === targetPeriod ? 'selected' : ''}>${o.label}</option>
+    `).join('');
+
+    const activePeriod = options.some(o => o.key === targetPeriod) ? targetPeriod : 'ALL';
+    select.value = activePeriod;
+
+    updateCertificateContent(activePeriod, forcedServerId);
+    modal.classList.add('active');
+  }
+
+  function updateCertificateContent(period, forcedServerId = null) {
+    const isCumul = (period === 'ALL');
+    let winnerEntry = null;
+    let periodLabelFull = '';
+    let issueDateStr = '';
+
+    if (isCumul) {
+      const summary = calculateMultiMonthSummary();
+      if (forcedServerId) {
+        winnerEntry = summary.serversRanked.find(e => e.server.id === forcedServerId);
+      }
+      if (!winnerEntry && summary.serversRanked.length > 0) {
+        winnerEntry = summary.serversRanked[0];
+      }
+      periodLabelFull = 'CUMUL GÉNÉRAL (AOÛT — OCTOBRE 2026)';
+
+      const dates = Array.from(AppState.sessions.keys()).sort();
+      const lastDate = dates.length > 0 ? dates[dates.length - 1] : '2026-10-12';
+      issueDateStr = `Délivré à Tanger, le ${formatFrenchDate(lastDate)}`;
+    } else {
+      const stats = calculateMonthStats(period);
+      if (forcedServerId) {
+        winnerEntry = stats.serversRanked.find(e => e.server.id === forcedServerId);
+      }
+      if (!winnerEntry && stats.serversRanked.length > 0) {
+        winnerEntry = stats.serversRanked[0];
+      }
+      periodLabelFull = getMonthFullLabel(period).toUpperCase();
+
+      const monthDates = Array.from(AppState.sessions.keys())
+        .filter(d => d.startsWith(period))
+        .sort();
+      const lastDate = monthDates.length > 0 ? monthDates[monthDates.length - 1] : `${period}-28`;
+      issueDateStr = `Délivré à Tanger, le ${formatFrenchDate(lastDate)}`;
+    }
+
+    if (!winnerEntry) {
+      showToast("Aucun serveur disponible pour cette période.", true);
+      return;
+    }
+
+    const s = winnerEntry.server;
+    const revenue = winnerEntry.totalNet || winnerEntry.cumulNet || 0;
+    const days = winnerEntry.daysWorked || winnerEntry.cumulDays || 0;
+    const share = winnerEntry.sharePercent || 0;
+    const avg = winnerEntry.dailyAverage || 0;
+
+    // Éléments du certificat
+    const elRibbon = document.getElementById('cert-ribbon-text');
+    const elPhoto = document.getElementById('cert-recipient-photo');
+    const elName = document.getElementById('cert-recipient-name');
+    const elRole = document.getElementById('cert-recipient-role');
+    const elAppreciation = document.getElementById('cert-appreciation-text');
+    const elRevenue = document.getElementById('cert-metric-revenue');
+    const elShare = document.getElementById('cert-metric-share');
+    const elAvg = document.getElementById('cert-metric-avg');
+    const elDays = document.getElementById('cert-metric-days');
+    const elDate = document.getElementById('cert-issue-date');
+
+    if (elRibbon) {
+      elRibbon.innerText = isCumul
+        ? "CHAMPION DES VENTES AU CUMUL"
+        : `MEILLEUR VENDEUR — ${periodLabelFull}`;
+    }
+
+    if (elPhoto) {
+      if (s.photo) {
+        elPhoto.src = s.photo;
+        elPhoto.style.display = 'block';
+      } else {
+        elPhoto.src = 'images/LOGO.jpg';
+      }
+      elPhoto.onerror = function () {
+        this.onerror = null;
+        this.src = 'images/LOGO.jpg';
+      };
+    }
+
+    if (elName) elName.innerText = s.displayName || s.name;
+    if (elRole) {
+      elRole.innerText = isCumul
+        ? "Leader des Ventes au Cumul · Restaurant Grey Corner"
+        : `Leader des Ventes ${getMonthShortName(period)} · Restaurant Grey Corner`;
+    }
+
+    if (elAppreciation) {
+      const periodName = isCumul ? "la période consolidée (Août — Octobre 2026)" : getMonthFullLabel(period);
+      elAppreciation.innerHTML = `
+        En reconnaissance officielle de ses performances commerciales d'exception, de son dévouement remarquable auprès de la clientèle et de son leadership exemplaire ayant propulsé la recette au plus haut niveau durant <strong>${periodName}</strong> avec un chiffre d'affaires record de <strong>${formatDH(revenue)}</strong>.
+      `;
+    }
+
+    if (elRevenue) elRevenue.innerText = formatDH(revenue);
+    if (elShare) elShare.innerText = `${share}%`;
+    if (elAvg) elAvg.innerText = `${formatDH(avg)} / j`;
+    if (elDays) elDays.innerText = `sur ${days} journées actives`;
+    if (elDate) elDate.innerText = issueDateStr;
+  }
+
+  function getMonthShortName(ym) {
+    if (!ym || ym === 'ALL') return 'Général';
+    const parts = ym.split('-');
+    const mNum = parseInt(parts[1], 10);
+    const monthsFr = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+    return monthsFr[mNum - 1] || ym;
+  }
+
+  function formatFrenchDate(ymd) {
+    if (!ymd) return '';
+    const parts = ymd.split('-');
+    if (parts.length !== 3) return ymd;
+    const day = parseInt(parts[2], 10);
+    const monthIdx = parseInt(parts[1], 10) - 1;
+    const year = parts[0];
+    const monthsFr = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+    const dayStr = day === 1 ? '1er' : day;
+    return `${dayStr} ${monthsFr[monthIdx] || ''} ${year}`;
+  }
+
+  function toggleCertificateTheme() {
+    const diploma = document.getElementById('certificate-diploma');
+    const label = document.getElementById('cert-theme-label');
+    if (!diploma) return;
+
+    if (diploma.classList.contains('theme-ivory')) {
+      diploma.classList.remove('theme-ivory');
+      diploma.classList.add('theme-dark');
+      if (label) label.innerText = "Style Ivoire Royal";
+    } else {
+      diploma.classList.remove('theme-dark');
+      diploma.classList.add('theme-ivory');
+      if (label) label.innerText = "Style Nuit Impériale";
+    }
+  }
+
+  async function downloadCertificatePng() {
+    const certEl = document.getElementById('certificate-diploma');
+    if (!certEl) return;
+
+    const btn = document.getElementById('btn-cert-download-png');
+    const originalText = btn ? btn.innerHTML : '';
+    if (btn) {
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Export HD...';
+      btn.disabled = true;
+    }
+
+    try {
+      if (typeof html2canvas !== 'undefined') {
+        const canvas = await html2canvas(certEl, {
+          scale: 2, // Haute résolution 300dpi / Retina
+          useCORS: true,
+          allowTaint: true,
+          backgroundColor: null,
+          logging: false
+        });
+
+        const link = document.createElement('a');
+        const nameClean = (document.getElementById('cert-recipient-name')?.innerText || 'Serveur').trim().replace(/\s+/g, '_');
+        const periodClean = (document.getElementById('cert-period-select')?.value || 'Mois').replace(/\s+/g, '_');
+        link.download = `Certificat_Meilleur_Vendeur_${nameClean}_${periodClean}.png`;
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+        showToast("🎉 Certificat téléchargé avec succès en haute définition !");
+      } else {
+        showToast("ℹ️ Impression lancée pour enregistrement PDF.");
+        window.print();
+      }
+    } catch (err) {
+      console.error("Erreur génération image certificat:", err);
+      showToast("ℹ️ Génération image impossible, impression lancée pour enregistrement en PDF.");
+      window.print();
+    } finally {
+      if (btn) {
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+  }
+
+  // Exports globaux pour les clics inline
+  window.GC_App_OpenCertificate = openCertificateModal;
 
 })();

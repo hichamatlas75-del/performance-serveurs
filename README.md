@@ -36,6 +36,12 @@ Application web indépendante de suivi du chiffre d'affaires et de la performanc
    - Données précompilées (`flash_summary.js` & `flash_summary.json`) garantissant un affichage instantané même en local direct (`file://`).
    - Synchronisation automatique avec GitHub.
 
+7. **Diplôme d'Honneur & Certificat Décoré du Meilleur Vendeur 📜** :
+   - **Génération automatique par mois ou au cumul** : Sélection de n'importe quel mois (Août, Septembre, Octobre...) ou du cumul général pour générer le certificat officiel du champion.
+   - **Mise en page de prestige** : Photo officielle avec médaillon et lauriers dorés, cadre baroque, sceau d'or officiel en relief avec rubans, chiffres clés certifiés (CA Net, part de marché, moyenne/j) et signature de la direction.
+   - **Double thème graphique** : Bascule en un clic entre *Ivoire Royal* (idéal pour impression papier) et *Nuit Impériale* (noir et or pour écrans).
+   - **Export multi-formats** : Téléchargement en Image Haute Définition (PNG HD 300 DPI) et Impression / Sauvegarde directe en PDF A4 Paysage.
+
 ---
 
 ## 🚀 Utilisation
