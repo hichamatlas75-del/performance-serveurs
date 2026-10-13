@@ -1534,33 +1534,58 @@
     const btn = document.getElementById('btn-cert-download-png');
     const originalText = btn ? btn.innerHTML : '';
     if (btn) {
-      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Export HD...';
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Export 9:16 (1080x1920)...';
       btn.disabled = true;
     }
 
     try {
       if (typeof html2canvas !== 'undefined') {
-        const canvas = await html2canvas(certEl, {
-          scale: 2.2, // Rendu ultra-net 1080px+ format smartphone HD
+        // Cloner l'élément dans un conteneur dédié 9:16 de 540 x 960 px pour garantir un rendu parfait
+        const clone = certEl.cloneNode(true);
+        clone.style.width = '540px';
+        clone.style.height = '960px';
+        clone.style.maxWidth = '540px';
+        clone.style.maxHeight = '960px';
+        clone.style.aspectRatio = '9 / 16';
+        clone.style.position = 'fixed';
+        clone.style.top = '-9999px';
+        clone.style.left = '-9999px';
+        clone.style.zIndex = '-9999';
+        clone.style.margin = '0';
+        document.body.appendChild(clone);
+
+        const renderedCanvas = await html2canvas(clone, {
+          width: 540,
+          height: 960,
+          scale: 2, // 540 * 2 = 1080 px, 960 * 2 = 1920 px (Format 9:16 Strict)
           useCORS: true,
           allowTaint: true,
           backgroundColor: null,
           logging: false
         });
 
+        document.body.removeChild(clone);
+
+        // Création du canvas final 1080 x 1920 (Strictement 9:16)
+        const finalCanvas = document.createElement('canvas');
+        finalCanvas.width = 1080;
+        finalCanvas.height = 1920;
+        const ctx = finalCanvas.getContext('2d');
+        ctx.drawImage(renderedCanvas, 0, 0, 1080, 1920);
+
         const link = document.createElement('a');
         const nameClean = (document.getElementById('cert-recipient-name')?.innerText || 'Serveur').trim().replace(/\s+/g, '_');
         const periodClean = (document.getElementById('cert-period-select')?.value || 'Mois').replace(/\s+/g, '_');
-        link.download = `Certificat_Mobile_Meilleur_Vendeur_${nameClean}_${periodClean}.png`;
-        link.href = canvas.toDataURL('image/png');
+        link.download = `Certificat_Story_9-16_${nameClean}_${periodClean}.png`;
+        link.href = finalCanvas.toDataURL('image/png');
         link.click();
-        showToast("🎉 Certificat Mobile HD téléchargé avec succès !");
+        showToast("🎉 Certificat Format 9:16 (1080x1920 px) téléchargé avec succès !");
       } else {
         showToast("ℹ️ Impression lancée pour enregistrement PDF.");
         window.print();
       }
     } catch (err) {
-      console.error("Erreur génération image certificat:", err);
+      console.error("Erreur génération image certificat 9:16:", err);
       showToast("ℹ️ Génération image impossible, impression lancée pour enregistrement en PDF.");
       window.print();
     } finally {

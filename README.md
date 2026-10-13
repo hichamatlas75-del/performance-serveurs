@@ -36,9 +36,9 @@ Application web indépendante de suivi du chiffre d'affaires et de la performanc
    - Données précompilées (`flash_summary.js` & `flash_summary.json`) garantissant un affichage instantané même en local direct (`file://`).
    - Synchronisation automatique avec GitHub.
 
-7. **Diplôme d'Honneur & Certificat Décoré du Meilleur Vendeur (Format Mobile) 📜** :
+7. **Diplôme d'Honneur & Certificat Décoré du Meilleur Vendeur (Format 9:16 Story) 📜** :
+   - **Format Strict 9:16 (1080 × 1920 px)** : Conçu spécialement au ratio standard 9:16 pour les smartphones, stories Instagram et statuts WhatsApp (export PNG pleine résolution 1080x1920).
    - **Génération automatique par mois ou au cumul** : Sélection de n'importe quel mois (Août, Septembre, Octobre...) ou du cumul général pour générer l'affiche officielle du champion.
-   - **Format Mobile / WhatsApp HD** : Conçu spécialement au format portrait smartphone (affiche HD 1080px) pour un partage instantané sur WhatsApp et mobile.
    - **Récompenses & Privilèges du Vainqueur** :
      - 🎂 *Un délicieux gâteau gourmand à partager en famille à la maison*
      - 🍽️ *Une remise exceptionnelle de 50 % sur un repas au restaurant*
