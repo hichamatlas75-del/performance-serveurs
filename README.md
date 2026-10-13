@@ -46,7 +46,7 @@ Application web indépendante de suivi du chiffre d'affaires et de la performanc
      - *« Un grand merci également à l’ensemble de l'équipe — cuisine, bar, caisse et salle — car c’est grâce au travail et à la fluidité de chacun que ces beaux résultats sont possibles ! »*
    - **Défi & Teaser** :
      - *« Rendez-vous à la fin du mois prochain pour le nouveau classement ! 🔥 »*
-   - **Mise en page de prestige** : Photo officielle avec médaillon et lauriers dorés, cadre baroque, sceau d'or officiel en relief avec rubans, chiffres clés certifiés et signature de la direction.
+   - **Mise en page de prestige & Confidentialité Totale** : Photo officielle avec médaillon et lauriers dorés, cadre baroque, sceau d'or officiel en relief avec rubans, distinctions honorifiques (aucun chiffre d'affaires ni montant financier affiché afin de préserver la stricte confidentialité d'entreprise) et signature de la direction.
    - **Double thème graphique** : Bascule en un clic entre *Ivoire Royal* et *Nuit Impériale* (noir et or).
    - **Export multi-formats** : Téléchargement en Image Smartphone HD (PNG) et Impression / Sauvegarde en PDF.
 

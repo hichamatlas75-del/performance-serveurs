@@ -1434,10 +1434,6 @@
     }
 
     const s = winnerEntry.server;
-    const revenue = winnerEntry.totalNet || winnerEntry.cumulNet || 0;
-    const days = winnerEntry.daysWorked || winnerEntry.cumulDays || 0;
-    const share = winnerEntry.sharePercent || 0;
-    const avg = winnerEntry.dailyAverage || 0;
 
     // Éléments du certificat
     const elRibbon = document.getElementById('cert-ribbon-text');
@@ -1445,10 +1441,9 @@
     const elName = document.getElementById('cert-recipient-name');
     const elRole = document.getElementById('cert-recipient-role');
     const elAppreciation = document.getElementById('cert-appreciation-text');
-    const elRevenue = document.getElementById('cert-metric-revenue');
-    const elShare = document.getElementById('cert-metric-share');
-    const elAvg = document.getElementById('cert-metric-avg');
-    const elDays = document.getElementById('cert-metric-days');
+    const elHonorRank = document.getElementById('cert-honor-rank');
+    const elHonorTitle = document.getElementById('cert-honor-title');
+    const elHonorEval = document.getElementById('cert-honor-eval');
     const elDate = document.getElementById('cert-issue-date');
 
     if (elRibbon) {
@@ -1480,14 +1475,15 @@
     if (elAppreciation) {
       const periodName = isCumul ? "la période consolidée (Août — Octobre 2026)" : getMonthFullLabel(period);
       elAppreciation.innerHTML = `
-        En reconnaissance officielle de ses performances commerciales d'exception, de son dévouement remarquable auprès de la clientèle et de son leadership exemplaire ayant propulsé la recette au plus haut niveau durant <strong>${periodName}</strong> avec un chiffre d'affaires record de <strong>${formatDH(revenue)}</strong>.
+        En reconnaissance officielle de ses performances d'exception, de son professionnalisme remarquable auprès de la clientèle et de son leadership exemplaire ayant valorisé l'accueil et le service de salle du restaurant Grey Corner durant <strong>${periodName}</strong>.
       `;
     }
 
-    if (elRevenue) elRevenue.innerText = formatDH(revenue);
-    if (elShare) elShare.innerText = `${share}%`;
-    if (elAvg) elAvg.innerText = `${formatDH(avg)} / j`;
-    if (elDays) elDays.innerText = `sur ${days} journées actives`;
+    // Distinctions honorifiques (Confidentialité respectée : aucun chiffre financier)
+    if (elHonorRank) elHonorRank.innerText = isCumul ? "🥇 Champion Général" : "🥇 1ère Place";
+    if (elHonorTitle) elHonorTitle.innerText = "⭐ Excellence";
+    if (elHonorEval) elHonorEval.innerText = "👑 Félicitations";
+
     if (elDate) elDate.innerText = issueDateStr;
   }
 
