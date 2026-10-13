@@ -55,8 +55,12 @@ alias_map = {
     'ZAKARIA': {'id': 'KAFOUNI_ZAKARIAE', 'displayName': 'Zakariae Kafouni', 'role': 'Serveur', 'photo': 'images/KAFOUNI_ZAKARIAE.jpg'},
     'AZIZ': {'id': 'ALAOUI_LAZIZ', 'displayName': 'Abdelaziz Alaoui', 'role': 'Serveur', 'photo': 'images/HAMID_ALAOUI_ABDELAZIZ.jpg'},
     'LAZIZ': {'id': 'ALAOUI_LAZIZ', 'displayName': 'Abdelaziz Alaoui', 'role': 'Serveur', 'photo': 'images/HAMID_ALAOUI_ABDELAZIZ.jpg'},
+    'ABDELAZIZ': {'id': 'ALAOUI_LAZIZ', 'displayName': 'Abdelaziz Alaoui', 'role': 'Serveur', 'photo': 'images/HAMID_ALAOUI_ABDELAZIZ.jpg'},
     'SIMO': {'id': 'HATTAF_MOHAMED', 'displayName': 'Mohamed Hattaf', 'role': 'Serveur', 'photo': 'images/HATTAF_MOHAMMED.jpg'},
     'HATTAF': {'id': 'HATTAF_MOHAMED', 'displayName': 'Mohamed Hattaf', 'role': 'Serveur', 'photo': 'images/HATTAF_MOHAMMED.jpg'},
+    'MOHAMED': {'id': 'HATTAF_MOHAMED', 'displayName': 'Mohamed Hattaf', 'role': 'Serveur', 'photo': 'images/HATTAF_MOHAMMED.jpg'},
+    'MOHAMMED': {'id': 'HATTAF_MOHAMED', 'displayName': 'Mohamed Hattaf', 'role': 'Serveur', 'photo': 'images/HATTAF_MOHAMMED.jpg'},
+    'GLOVO': {'id': 'EMP_GLOVO', 'displayName': 'Commandes Glovo', 'role': 'Livraisons & Emporté', 'photo': 'images/LOGO.jpg'},
 }
 
 def resolve_server(raw):
@@ -118,4 +122,8 @@ out_json = os.path.join(data_dir, 'flash_summary.json')
 with open(out_json, 'w', encoding='utf-8') as out:
     json.dump(all_sessions, out, ensure_ascii=False, indent=2)
 
-print(f"Synthese recompilee : {len(all_sessions)} sessions dans flash_summary.json.")
+out_js = os.path.join(data_dir, 'flash_summary.js')
+with open(out_js, 'w', encoding='utf-8') as out:
+    out.write("window.FLASH_SUMMARY_DATA = " + json.dumps(all_sessions, ensure_ascii=False, indent=2) + ";\n")
+
+print(f"Synthese recompilee : {len(all_sessions)} sessions dans flash_summary.json et flash_summary.js.")

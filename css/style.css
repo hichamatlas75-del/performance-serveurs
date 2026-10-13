@@ -51,9 +51,15 @@ body {
 
 /* ── Container & Header ────────────────────────────────────────── */
 .container {
-  max-width: 1320px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: 24px 20px 80px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 14px 12px 60px;
+  }
 }
 
 .app-header {
@@ -64,7 +70,41 @@ body {
   gap: 20px;
   padding-bottom: 24px;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 28px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+  .brand-logo {
+    width: 44px;
+    height: 44px;
+  }
+  .brand-title {
+    font-size: 22px;
+  }
+  .header-controls {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+  }
+  .month-picker-wrapper {
+    width: 100%;
+  }
+  .month-select {
+    width: 100%;
+  }
+  .btn-primary {
+    white-space: nowrap;
+    padding: 9px 12px;
+    font-size: 12px;
+  }
 }
 
 .brand {
@@ -141,6 +181,72 @@ body {
   color: var(--text);
 }
 
+/* ── Barre de Navigation Rapide Périodes & Mode Cumul ───── */
+.period-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.period-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 2px 0;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.period-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.period-tab {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  padding: 7px 15px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.period-tab:hover {
+  color: var(--gold-light);
+  border-color: var(--border-hover);
+}
+
+.period-tab.active {
+  background: linear-gradient(135deg, rgba(201, 169, 110, 0.22) 0%, rgba(201, 169, 110, 0.08) 100%);
+  color: var(--gold-light);
+  border-color: var(--gold);
+  box-shadow: 0 0 14px var(--gold-glow);
+}
+
+.period-info-badge {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+}
+
 /* ── Buttons ───────────────────────────────────────────────────── */
 .btn {
   display: inline-flex;
@@ -183,9 +289,23 @@ body {
 /* ── KPI Summary Cards ─────────────────────────────────────────── */
 .kpi-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
   margin-bottom: 32px;
+}
+
+@media (max-width: 1040px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .kpi-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 22px;
+  }
 }
 
 .kpi-card {
@@ -196,6 +316,13 @@ body {
   position: relative;
   overflow: hidden;
   transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+@media (max-width: 640px) {
+  .kpi-card {
+    padding: 14px 12px;
+    border-radius: var(--radius-sm);
+  }
 }
 
 .kpi-card:hover {
@@ -225,18 +352,43 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 640px) {
+  .kpi-label {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    margin-bottom: 4px;
+  }
+}
+
 .kpi-value {
   font-family: var(--font-serif);
-  font-size: 34px;
+  font-size: 32px;
   font-weight: 700;
   color: var(--gold-light);
   line-height: 1.1;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  .kpi-value {
+    font-size: 21px !important;
+  }
 }
 
 .kpi-sub {
   font-size: 12px;
   color: var(--text-muted);
   margin-top: 6px;
+}
+
+@media (max-width: 640px) {
+  .kpi-sub {
+    font-size: 10.5px;
+    margin-top: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 /* ── Podium Section 🏆 ─────────────────────────────────────────── */
@@ -266,10 +418,10 @@ body {
   margin-bottom: 40px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
   .podium-container {
-    grid-template-columns: 1fr;
-    align-items: stretch;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
 }
 
@@ -295,28 +447,82 @@ body {
 .podium-first {
   order: 2;
   border-color: var(--gold);
-  background: linear-gradient(180deg, rgba(201, 169, 110, 0.09) 0%, var(--surface) 80%);
-  box-shadow: 0 20px 50px rgba(201, 169, 110, 0.12);
+  background: linear-gradient(180deg, rgba(201, 169, 110, 0.12) 0%, var(--surface) 80%);
+  box-shadow: 0 20px 50px rgba(201, 169, 110, 0.14);
   padding: 34px 24px 30px;
 }
 
-@media (max-width: 860px) {
+@media (max-width: 768px) {
   .podium-first {
+    grid-column: 1 / -1;
     order: 1;
+    padding: 22px 16px 18px;
+  }
+  .podium-first .avatar-img,
+  .podium-first .avatar-initials {
+    width: 86px;
+    height: 86px;
+    font-size: 28px;
+  }
+  .podium-first .server-name {
+    font-size: 20px;
   }
 }
 
 .podium-second {
   order: 1;
 }
-@media (max-width: 860px) {
+
+@media (max-width: 768px) {
   .podium-second {
     order: 2;
+    padding: 16px 10px;
+  }
+  .podium-second .avatar-img,
+  .podium-second .avatar-initials {
+    width: 58px;
+    height: 58px;
+    font-size: 20px;
+  }
+  .podium-second .server-name {
+    font-size: 15px;
+  }
+  .podium-second .metric-amount {
+    font-size: 19px;
+  }
+  .podium-second .server-stats-mini {
+    flex-direction: column;
+    gap: 2px;
+    font-size: 10.5px;
   }
 }
 
 .podium-third {
   order: 3;
+}
+
+@media (max-width: 768px) {
+  .podium-third {
+    order: 3;
+    padding: 16px 10px;
+  }
+  .podium-third .avatar-img,
+  .podium-third .avatar-initials {
+    width: 58px;
+    height: 58px;
+    font-size: 20px;
+  }
+  .podium-third .server-name {
+    font-size: 15px;
+  }
+  .podium-third .metric-amount {
+    font-size: 19px;
+  }
+  .podium-third .server-stats-mini {
+    flex-direction: column;
+    gap: 2px;
+    font-size: 10.5px;
+  }
 }
 
 .crown-badge {
@@ -676,4 +882,286 @@ body {
   font-size: 32px;
   color: var(--gold);
   margin-bottom: 10px;
+}
+
+/* ── Section Multi-Mois & Cumul des Performances ────────── */
+.multi-month-panel {
+  margin-bottom: 36px;
+  border: 1px solid rgba(201, 169, 110, 0.3);
+  background: linear-gradient(180deg, rgba(201, 169, 110, 0.04) 0%, var(--surface) 35%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.multi-month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.cumul-header-stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cumul-stat-pill {
+  background: var(--surface-2);
+  border: 1px solid var(--gold);
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 0 16px var(--gold-glow);
+}
+
+.cumul-stat-lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  font-weight: 700;
+}
+
+.cumul-stat-val {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.multi-month-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.multi-month-table th {
+  background: var(--surface-2);
+  white-space: nowrap;
+}
+
+.multi-month-table td {
+  white-space: nowrap;
+}
+
+.multi-month-table th.sticky-col,
+.multi-month-table td.sticky-col {
+  position: sticky;
+  left: 0;
+  background: var(--surface);
+  z-index: 2;
+  border-right: 1px solid rgba(201, 169, 110, 0.2);
+}
+
+.multi-month-table tr:hover td.sticky-col {
+  background: var(--surface-2);
+}
+
+.multi-month-table tfoot td {
+  background: var(--surface-3);
+  font-weight: 700;
+  border-top: 2px solid var(--gold);
+  color: var(--gold-light);
+  font-family: var(--font-serif);
+  font-size: 15px;
+}
+
+.month-cell-box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.month-cell-amt {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.month-cell-meta {
+  font-size: 10.5px;
+  color: var(--text-dim);
+}
+
+.month-winner-badge {
+  display: inline-block;
+  color: #ffd700;
+  font-size: 11px;
+  margin-left: 4px;
+}
+
+/* ── Cartes Cumul pour Mobile ────────────────────────────── */
+.cumul-cards-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .multi-month-table-wrapper {
+    display: none;
+  }
+  .cumul-cards-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .cumul-card-item {
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 14px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .cumul-card-item:hover, .cumul-card-item:active {
+    border-color: var(--gold);
+    transform: translateY(-1px);
+  }
+  .cumul-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .cumul-card-server {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .cumul-card-total {
+    text-align: right;
+  }
+  .cumul-card-total-val {
+    font-family: var(--font-serif);
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gold-light);
+  }
+  .cumul-card-months-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+    background: var(--surface-3);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .cumul-card-month-cell {
+    text-align: center;
+  }
+  .cumul-card-month-name {
+    font-size: 10px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .cumul-card-month-val {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+  }
+  .cumul-card-month-days {
+    font-size: 10px;
+    color: var(--text-dim);
+  }
+  .cumul-card-foot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    color: var(--text-muted);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 8px;
+  }
+}
+
+/* ── Leaderboard Table Responsive ────────────────────────── */
+@media (max-width: 640px) {
+  .table th:nth-child(4),
+  .table td:nth-child(4),
+  .table th:nth-child(5),
+  .table td:nth-child(5),
+  .table th:nth-child(6),
+  .table td:nth-child(6) {
+    display: none;
+  }
+  .table td, .table th {
+    padding: 10px 8px;
+  }
+  .mobile-meta-sub {
+    display: block !important;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 2px;
+  }
+}
+
+@media (min-width: 641px) {
+  .mobile-meta-sub {
+    display: none !important;
+  }
+}
+
+/* ── Modal Bottom Sheet on Mobile ────────────────────────── */
+@media (max-width: 640px) {
+  .modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+  .modal-card {
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+    max-height: 90vh;
+    border-bottom: none;
+    transform: translateY(100%);
+  }
+  .modal-overlay.active .modal-card {
+    transform: translateY(0);
+  }
+  .modal-header {
+    padding: 16px 20px;
+  }
+  .modal-body {
+    padding: 16px 20px 32px;
+  }
+}
+
+/* ── Modal Multi-Month Breakdown Chips ───────────────────── */
+.modal-months-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.modal-month-pill {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  text-align: center;
+}
+
+.modal-month-pill.highlight {
+  border-color: var(--gold);
+  background: rgba(201, 169, 110, 0.08);
+}
+
+.modal-month-name {
+  font-size: 10.5px;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.modal-month-amount {
+  font-family: var(--font-serif);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+
+.modal-month-meta {
+  font-size: 10.5px;
+  color: var(--text-muted);
 }

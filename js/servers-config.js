@@ -19,7 +19,7 @@ window.SERVERS_CATALOG = [
     displayName: "Mohamed Hattaf",
     role: "Serveur",
     photo: "images/HATTAF_MOHAMMED.jpg",
-    aliases: ["HATTAF", "SIMO", "MOHAMED HATTAF", "MOHAMMED HATTAF", "HATTAF MOHAMMED", "SIMO HATTAF"]
+    aliases: ["HATTAF", "SIMO", "MOHAMED HATTAF", "MOHAMMED HATTAF", "HATTAF MOHAMMED", "SIMO HATTAF", "MOHAMED", "MOHAMMED"]
   },
   {
     id: "HIDARA_YOUSSEF",
@@ -46,62 +46,6 @@ window.SERVERS_CATALOG = [
     aliases: ["MOHSINE", "MOHSSINE", "YOUNESS", "MOHSINE YOUNESS", "MOHSSINE YOUNESS", "YOUNESS MOHSINE"]
   },
   {
-    id: "BENKHADA_ABDESLAM",
-    name: "Benkhada Abdeslam",
-    displayName: "Abdesslam Benkhada",
-    role: "Caisse / Responsable",
-    photo: "images/BENKHADA_ABDESSLAM.jpg",
-    aliases: ["BENKHADA", "ABDESLAM", "ABDESSLAM", "BENKHADA ABDESSLAM", "CAISSE"]
-  },
-  {
-    id: "SALIL_HOUDA",
-    name: "Salil Houda",
-    displayName: "Houda Salil",
-    role: "Caisse",
-    photo: "images/SALIL_HOUDA.jpg",
-    aliases: ["SALIL", "HOUDA", "SALIL HOUDA", "HOUDA SALIL"]
-  },
-  {
-    id: "CHKAIRI_YOUSSEF",
-    name: "Chkairi Youssef",
-    displayName: "Youssef Chkairi",
-    role: "Barista",
-    photo: "images/CHKAIRI_YOUSSEF.jpg",
-    aliases: ["CHKAIRI", "CHKAIRI YOUSSEF", "YOUSSEF BAR"]
-  },
-  {
-    id: "ELKOBBI_MOSTAFA",
-    name: "El Kobbi Mostafa",
-    displayName: "Mostafa El Kobbi",
-    role: "Barista",
-    photo: "images/EL_KOBBI_MOSTAFA.jpg",
-    aliases: ["KOBBI", "EL KOBBI", "EL_KOBBI", "MOSTAFA EL KOBBI"]
-  },
-  {
-    id: "KHALOUQ_RACHID",
-    name: "Khalouq Rachid",
-    displayName: "Rachid Khalouq",
-    role: "Barista",
-    photo: "images/KHALOUQ_RACHID.jpg",
-    aliases: ["KHALOUQ", "RACHID KHALOUQ", "KHALOUQ RACHID"]
-  },
-  {
-    id: "TOUATI_OMAR",
-    name: "Touati Omar",
-    displayName: "Omar Touati",
-    role: "Salle",
-    photo: "images/TOUATI_OMAR.jpg",
-    aliases: ["TOUATI", "OMAR TOUATI", "TOUATI OMAR"]
-  },
-  {
-    id: "WALID",
-    name: "Walid",
-    displayName: "Walid",
-    role: "Service",
-    photo: "images/WALID.jpg",
-    aliases: ["WALID"]
-  },
-  {
     id: "MOKHTAR",
     name: "Mokhtar",
     displayName: "Mokhtar",
@@ -116,6 +60,14 @@ window.SERVERS_CATALOG = [
     role: "Responsable Salle",
     photo: "images/QUASSIR_HICHAM.jpg",
     aliases: ["QUASSIR", "HICHAM QUASSIR", "QUASSIR HICHAM", "HICHAM SALLE"]
+  },
+  {
+    id: "EMP_GLOVO",
+    name: "Commandes Glovo",
+    displayName: "Commandes Glovo",
+    role: "Livraisons & Emporté",
+    photo: "images/LOGO.jpg",
+    aliases: ["GLOVO", "EMP--GLOVO", "EMP-GLOVO", "EMP GLOVO", "LIVRAISON GLOVO"]
   }
 ];
 
@@ -180,3 +132,8 @@ function findServerByRawName(rawName) {
     aliases: [rawName.trim()]
   };
 }
+
+// Export explicite sur window
+window.findServerByRawName = findServerByRawName;
+window.normalizeServerString = normalizeServerString;
+

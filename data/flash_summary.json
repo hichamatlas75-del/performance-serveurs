@@ -29,10 +29,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 4056.0,
@@ -40,10 +40,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 48.0,
@@ -103,10 +103,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2864.0,
@@ -125,10 +125,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 115.0,
@@ -262,10 +262,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3001.0,
@@ -336,10 +336,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1990.0,
@@ -377,10 +377,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1936.0,
@@ -388,10 +388,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 244.0,
@@ -451,10 +451,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 78.0,
@@ -484,10 +484,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3582.0,
@@ -558,10 +558,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 88.0,
@@ -632,10 +632,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3034.0,
@@ -651,10 +651,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2892.0,
@@ -725,10 +725,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 4740.0,
@@ -769,10 +769,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 58.0,
@@ -799,10 +799,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 811.0,
@@ -873,10 +873,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 4047.0,
@@ -884,10 +884,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 75.0,
@@ -925,10 +925,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2204.0,
@@ -958,10 +958,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 48.0,
@@ -1021,10 +1021,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 893.0,
@@ -1095,10 +1095,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1706.0,
@@ -1106,10 +1106,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 116.0,
@@ -1232,10 +1232,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 268.0,
@@ -1254,10 +1254,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 650.0,
@@ -1306,10 +1306,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2092.0,
@@ -1358,10 +1358,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 54.0,
@@ -1369,10 +1369,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 919.0,
@@ -1443,10 +1443,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 166.0,
@@ -1454,10 +1454,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1706.0,
@@ -1539,10 +1539,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1416.0,
@@ -1580,10 +1580,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 456.0,
@@ -1613,10 +1613,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1330.0,
@@ -1706,10 +1706,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2576.0,
@@ -1728,10 +1728,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 289.0,
@@ -1780,10 +1780,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 5283.0,
@@ -1813,10 +1813,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 233.0,
@@ -1843,10 +1843,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3844.0,
@@ -1854,10 +1854,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 166.0,
@@ -1906,10 +1906,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3404.0,
@@ -1917,10 +1917,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 40.0,
@@ -1980,10 +1980,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1117.0,
@@ -2024,10 +2024,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 88.0,
@@ -2054,10 +2054,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3300.0,
@@ -2139,10 +2139,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 248.0,
@@ -2202,10 +2202,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 54.0,
@@ -2224,10 +2224,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2325.6,
@@ -2276,10 +2276,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2231.0,
@@ -2295,10 +2295,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 5577.0,
@@ -2339,10 +2339,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 54.0,
@@ -2391,10 +2391,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1429.0,
@@ -2443,10 +2443,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 70.0,
@@ -2465,10 +2465,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 866.0,
@@ -2528,10 +2528,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 145.0,
@@ -2561,10 +2561,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1559.0,
@@ -2602,10 +2602,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 421.0,
@@ -2654,10 +2654,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3393.0,
@@ -2665,10 +2665,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 222.0,
@@ -2717,10 +2717,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2456.0,
@@ -2758,10 +2758,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2186.0,
@@ -2780,10 +2780,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 176.0,
@@ -2854,10 +2854,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2725.0,
@@ -2876,10 +2876,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 166.0,
@@ -2939,10 +2939,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2933.0,
@@ -3002,10 +3002,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 4255.0,
@@ -3035,10 +3035,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 88.0,
@@ -3109,10 +3109,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 176.0,
@@ -3172,10 +3172,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 98.0,
@@ -3235,10 +3235,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 150.0,
@@ -3361,10 +3361,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 168.0,
@@ -3435,10 +3435,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 102.0,
@@ -3509,10 +3509,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 183.0,
@@ -3553,10 +3553,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 4243.0,
@@ -3594,10 +3594,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 78.0,
@@ -3635,10 +3635,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2914.0,
@@ -3657,10 +3657,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 40.0,
@@ -3709,10 +3709,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2760.0,
@@ -3742,10 +3742,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 99.0,
@@ -3772,10 +3772,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1568.0,
@@ -3846,10 +3846,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1990.0,
@@ -3931,10 +3931,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1695.0,
@@ -3983,10 +3983,10 @@
     "servers": [
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 3732.0,
@@ -4005,10 +4005,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 72.0,
@@ -4090,10 +4090,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 65.0,
@@ -4153,10 +4153,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2172.0,
@@ -4194,10 +4194,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2459.0,
@@ -4268,10 +4268,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 78.0,
@@ -4290,10 +4290,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1575.0,
@@ -4353,10 +4353,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 1989.0,
@@ -4427,10 +4427,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 143.0,
@@ -4438,10 +4438,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2147.6,
@@ -4512,10 +4512,10 @@
       },
       {
         "server": {
-          "id": "SRV_MOHAMED",
-          "displayName": "MOHAMED",
+          "id": "HATTAF_MOHAMED",
+          "displayName": "Mohamed Hattaf",
           "role": "Serveur",
-          "photo": null
+          "photo": "images/HATTAF_MOHAMMED.jpg"
         },
         "rawName": "MOHAMED",
         "totalNet": 2678.0,
@@ -4649,10 +4649,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 173.0,
@@ -4690,10 +4690,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 138.0,
@@ -4857,10 +4857,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 180.0,
@@ -4931,10 +4931,10 @@
       },
       {
         "server": {
-          "id": "SRV_EMP--GLOVO",
-          "displayName": "EMP--GLOVO",
-          "role": "Serveur",
-          "photo": null
+          "id": "EMP_GLOVO",
+          "displayName": "Commandes Glovo",
+          "role": "Livraisons & Emporté",
+          "photo": "images/LOGO.jpg"
         },
         "rawName": "EMP--GLOVO",
         "totalNet": 256.0,

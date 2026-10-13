@@ -6,20 +6,35 @@ Application web indépendante de suivi du chiffre d'affaires et de la performanc
 
 ## 🌟 Fonctionnalités
 
-1. **Podium Mensuel des Performances** :
-   - 🥇 **Meilleur Serveur du Mois** : Grande photo encadrée d'or, couronne royale, Chiffre d'Affaires Net réalisé en DH, part en % du CA total.
+1. **Calculs Initiés le 1er Août 2026** :
+   - Historique officiel et suivi des performances débutant strictement en **Août 2026**.
+   - Élimination des mois antérieurs sans données.
+
+2. **Mode Cumul des Mois & Tableau Comparatif Multi-Mois** :
+   - **Vue Cumul Global** : Totalisation instantanée de toutes les recettes depuis le 1er Août 2026 (73 jours analysés, 882 680 DH cumulés).
+   - **Tableau Synthétique Multi-Mois** : Matrice comparative affichant pour chaque serveur ses résultats d'Août, Septembre, Octobre et son total cumulé avec part de marché et moyenne/jour.
+   - Étoile d'or (⭐) distinguant le serveur leader pour chaque mois individuel.
+
+3. **Optimisation Ergonomique PC & Mobile** :
+   - **Sur PC / Grand Écran** : Tableau de bord luxury noir & or avec podium grand format, matrice comparative complète et graphique haute résolution.
+   - **Sur Mobile / Smartphone** : 
+     - Grille de KPIs 2x2 compacte évitant les défilements inutiles.
+     - Podium optimisé : champion 1ère place en haut et 2ème/3ème places côte à côte.
+     - Classement général réactif sans défilement horizontal (métadonnées intégrées sous le nom du serveur).
+     - Fiches synthétiques tactiles pour le comparatif multi-mois.
+     - Fiche modale serveur sous forme de *bottom sheet* fluide.
+
+4. **Podium des Performances 🏆** :
+   - 🥇 **Leader des Ventes** : Grande photo encadrée d'or, couronne royale, Chiffre d'Affaires Net réalisé en DH, part en % du CA total.
    - 🥈 **2ème Place** (Médaille d'Argent) et 🥉 **3ème Place** (Médaille de Bronze).
-2. **Fiches Serveurs avec Photos Réelles** :
-   - Photos intégrées depuis l'équipe Grey Corner (Laziz Alaoui, Mohamed Hattaf, Youssef Hidara, Zakariae Kafouni, Youness Mohssine, etc.).
-   - Fiche modale détaillée avec évolution journalière du mois, moyenne par jour travaillé, part de marché et record de vente personnel.
-3. **Tableau de Bord & KPIs** :
-   - Recette Totale Salle du mois.
-   - Moyenne quotidienne de l'équipe.
-   - Nombre de jours travaillés analysés.
-4. **Analyse Automatique des Fichiers Flash Journée** :
-   - Détection automatique des colonnes Serveurs et Totaux Net via **SheetJS**.
-   - Zone glisser-déposer (Drag & Drop) pour charger n'importe quel fichier Excel `.xls` ou `.xlsx`.
-   - Synchronisation automatique avec GitHub (`flash_serveurs/manifest.json`).
+
+5. **Fiches Serveurs avec Photos Réelles** :
+   - Photos officielles de l'équipe Grey Corner (Abdelaziz Alaoui, Mohamed Hattaf, Youssef Hidara, Zakariae Kafouni, Youness Mohssine, Mokhtar, Commandes Glovo).
+   - Fiche modale avec historique mensuel détaillé, graphique d'évolution journalière, part de marché et record personnel.
+
+6. **Chargement Instantané Hors-Ligne & Synchronisation GitHub** :
+   - Données précompilées (`flash_summary.js` & `flash_summary.json`) garantissant un affichage instantané même en local direct (`file://`).
+   - Synchronisation automatique avec GitHub.
 
 ---
 

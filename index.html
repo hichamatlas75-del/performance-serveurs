@@ -39,7 +39,7 @@
       <div class="header-controls">
         <div class="month-picker-wrapper">
           <i class="fa-regular fa-calendar-days" style="color: var(--gold); font-size: 14px;"></i>
-          <span class="month-picker-label">Mois :</span>
+          <span class="month-picker-label">Période :</span>
           <select id="month-select" class="month-select"></select>
         </div>
 
@@ -50,20 +50,31 @@
       </div>
     </header>
 
+    <!-- ── Barre de Navigation Rapide Périodes & Mode Cumul ───── -->
+    <div class="period-nav-container">
+      <div class="period-tabs" id="period-tabs">
+        <!-- Rendu dynamique par app.js: Cumul Global, Octobre 2026, Septembre 2026, Août 2026 -->
+      </div>
+      <div class="period-info-badge">
+        <i class="fa-solid fa-clock-rotate-left" style="color: var(--gold);"></i>
+        <span>Calculs initiés le : <strong style="color: var(--gold-light);">1er Août 2026</strong></span>
+      </div>
+    </div>
+
     <!-- ── Cartes Indicateurs Clés (KPIs) ─────────────────────── -->
     <section class="kpi-grid">
       <div class="kpi-card">
         <div class="kpi-label">
-          <span>Recette Totale Salle</span>
+          <span id="kpi-total-label">Recette Totale Salle</span>
           <i class="fa-solid fa-coins" style="color: var(--gold);"></i>
         </div>
         <div id="kpi-total-ca" class="kpi-value">0 DH</div>
-        <div class="kpi-sub">Total Net cumulé des serveurs</div>
+        <div id="kpi-total-sub" class="kpi-sub">Total Net cumulé des serveurs</div>
       </div>
 
       <div class="kpi-card" style="border-color: rgba(201, 169, 110, 0.4);">
         <div class="kpi-label">
-          <span>Meilleur Serveur du Mois</span>
+          <span id="kpi-best-label">Meilleur Serveur</span>
           <i class="fa-solid fa-crown" style="color: #ffd700;"></i>
         </div>
         <div id="kpi-best-server" class="kpi-value" style="font-size: 26px;">—</div>
@@ -85,31 +96,82 @@
           <i class="fa-regular fa-calendar-check" style="color: var(--gold);"></i>
         </div>
         <div id="kpi-days-count" class="kpi-value">0 j</div>
-        <div class="kpi-sub">Fichiers Flash Journée analysés</div>
+        <div id="kpi-days-sub" class="kpi-sub">Fichiers Flash Journée analysés</div>
       </div>
     </section>
 
     <!-- ── Podium des Meilleurs Serveurs 🏆 ───────────────────── -->
-    <section>
-      <h2 class="section-title">
+    <section class="podium-section">
+      <h2 id="podium-title" class="section-title">
         <i class="fa-solid fa-trophy" style="color: var(--gold);"></i>
         Podium Mensuel des Performances
       </h2>
-      <p class="section-desc">Classement d'honneur des serveurs Grey Corner ayant réalisé la plus forte recette.</p>
+      <p id="podium-subtitle" class="section-desc">Classement d'honneur des serveurs Grey Corner ayant réalisé la plus forte recette.</p>
 
       <div id="podium-wrapper" class="podium-container">
         <!-- Rendu dynamique par app.js -->
       </div>
     </section>
 
-    <!-- ── Grille Centrale : Tableau & Graphique Comparatif ───── -->
+    <!-- ── Matrice & Synthèse Multi-Mois et Cumul des Performances ──── -->
+    <section class="panel multi-month-panel">
+      <div class="panel-header multi-month-header">
+        <div>
+          <h3 style="font-family: var(--font-serif); font-size: 22px; color: var(--gold-light); display: flex; align-items: center; gap: 10px;">
+            <i class="fa-solid fa-layer-group" style="color: var(--gold);"></i>
+            Tableau Comparatif & Cumul des Mois
+          </h3>
+          <div style="font-size: 12px; color: var(--text-dim); margin-top: 2px;">
+            Suivi des performances individuelles et collectives depuis le début du calcul (Août 2026)
+          </div>
+        </div>
+        <div class="cumul-header-stats">
+          <div class="cumul-stat-pill">
+            <span class="cumul-stat-lbl">Recette Totale Cumulée (Août - Octobre)</span>
+            <span id="cumul-total-badge" class="cumul-stat-val">0 DH</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vue Tableau Desktop avec scroll fluide et colonne sticky -->
+      <div class="table-responsive multi-month-table-wrapper">
+        <table class="table multi-month-table">
+          <thead>
+            <tr>
+              <th style="width: 45px; text-align: center;">Rang</th>
+              <th class="sticky-col">Serveur</th>
+              <th style="text-align: right;">Août 2026</th>
+              <th style="text-align: right;">Septembre 2026</th>
+              <th style="text-align: right;">Octobre 2026</th>
+              <th style="text-align: right; color: var(--gold-light);">Total Cumulé</th>
+              <th style="text-align: center;">Part Globale</th>
+              <th style="text-align: right;">Moyenne/J</th>
+              <th style="text-align: center;">Jours</th>
+            </tr>
+          </thead>
+          <tbody id="cumul-table-tbody">
+            <!-- Rendu dynamique -->
+          </tbody>
+          <tfoot id="cumul-table-tfoot">
+            <!-- Totaux d'équipe -->
+          </tfoot>
+        </table>
+      </div>
+
+      <!-- Vue Cartes Mobiles pour smartphones -->
+      <div id="cumul-cards-mobile" class="cumul-cards-mobile">
+        <!-- Rendu dynamique pour smartphone -->
+      </div>
+    </section>
+
+    <!-- ── Grille Centrale : Tableau Période & Graphique Comparatif ───── -->
     <div class="content-grid">
       <!-- Tableau de classement général -->
       <section class="panel">
         <div class="panel-header">
           <div>
-            <h3 style="font-family: var(--font-serif); font-size: 20px; color: var(--gold-light);">Classement Général des Serveurs</h3>
-            <div style="font-size: 12px; color: var(--text-dim);">Cliquez sur un serveur pour ouvrir sa fiche détaillée et son historique quotidien</div>
+            <h3 id="leaderboard-title" style="font-family: var(--font-serif); font-size: 20px; color: var(--gold-light);">Classement Général des Serveurs</h3>
+            <div id="leaderboard-subtitle" style="font-size: 12px; color: var(--text-dim);">Cliquez sur un serveur pour ouvrir sa fiche détaillée et son historique quotidien</div>
           </div>
         </div>
 
@@ -172,6 +234,7 @@
   </div>
 
   <!-- Scripts Applicatifs -->
+  <script src="data/flash_summary.js"></script>
   <script src="js/servers-config.js"></script>
   <script src="js/flash-parser.js"></script>
   <script src="js/app.js"></script>
