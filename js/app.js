@@ -26,6 +26,7 @@
   // INITIALISATION
   // ==============================================================================
   document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     loadEmbeddedData();
     loadCachedSessions();
     initMonthSelector();
@@ -33,6 +34,37 @@
     updateUI();
     syncFromGitHub();
   });
+
+  // ==============================================================================
+  // GESTION DU THÈME (CLAIR PRO & SOMBRE LUXE)
+  // ==============================================================================
+  function initTheme() {
+    const savedTheme = localStorage.getItem('gc_theme') || 'light';
+    applyTheme(savedTheme);
+  }
+
+  function applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('gc_theme', theme);
+    const btn = document.getElementById('btn-theme-toggle');
+    if (btn) {
+      if (theme === 'dark') {
+        btn.innerHTML = '<i class="fa-solid fa-sun" style="color: var(--gold);"></i> <span>Mode Clair</span>';
+        btn.title = "Passer en Mode Clair";
+      } else {
+        btn.innerHTML = '<i class="fa-solid fa-moon" style="color: var(--gold);"></i> <span>Mode Sombre</span>';
+        btn.title = "Passer en Mode Sombre";
+      }
+    }
+  }
+
+  function toggleTheme() {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    applyTheme(next);
+    const stats = calculateMonthStats(AppState.selectedMonth);
+    renderChart(stats);
+  }
 
   /**
    * Charge en priorité absolue les données pré-compilées locales (fonctionne hors-ligne et sur file://)
@@ -44,10 +76,12 @@
           const ym = s.yearMonth || s.date.slice(0, 7);
           if (ym >= MIN_TRACKING_MONTH) {
             if (Array.isArray(s.servers)) {
-              s.servers.forEach(item => {
-                if (item.rawName) {
-                  item.server = findServerByRawName(item.rawName);
-                }
+              s.servers = s.servers.filter(item => {
+                if (!item) return false;
+                const raw = String(item.rawName || "").toLowerCase();
+                if (raw.includes('quassir') || raw.includes('hicham')) return false;
+                item.server = findServerByRawName(item.rawName);
+                return item.server !== null && item.server.id !== 'QUASSIR_HICHAM';
               });
             }
             AppState.sessions.set(s.date, s);
@@ -154,6 +188,12 @@
   }
 
   function initEventListeners() {
+    // Bouton de bascule Mode Clair / Sombre
+    const btnTheme = document.getElementById('btn-theme-toggle');
+    if (btnTheme) {
+      btnTheme.addEventListener('click', toggleTheme);
+    }
+
     // Bouton de synchronisation
     const btnSync = document.getElementById('btn-sync');
     if (btnSync) {
@@ -216,12 +256,14 @@
             if (s && s.date) {
               const ym = s.yearMonth || s.date.slice(0, 7);
               if (ym >= MIN_TRACKING_MONTH) {
-                // Re-résoudre les serveurs pour garantir l'assignation correcte
+                // Re-résoudre les serveurs et exclure Quassir
                 if (Array.isArray(s.servers)) {
-                  s.servers.forEach(item => {
-                    if (item.rawName) {
-                      item.server = findServerByRawName(item.rawName);
-                    }
+                  s.servers = s.servers.filter(item => {
+                    if (!item) return false;
+                    const raw = String(item.rawName || "").toLowerCase();
+                    if (raw.includes('quassir') || raw.includes('hicham')) return false;
+                    item.server = findServerByRawName(item.rawName);
+                    return item.server !== null && item.server.id !== 'QUASSIR_HICHAM';
                   });
                 }
                 AppState.sessions.set(s.date, s);
@@ -276,10 +318,12 @@
                   const ym = s.yearMonth || s.date.slice(0, 7);
                   if (ym >= MIN_TRACKING_MONTH) {
                     if (Array.isArray(s.servers)) {
-                      s.servers.forEach(item => {
-                        if (item.rawName) {
-                          item.server = findServerByRawName(item.rawName);
-                        }
+                      s.servers = s.servers.filter(item => {
+                        if (!item) return false;
+                        const raw = String(item.rawName || "").toLowerCase();
+                        if (raw.includes('quassir') || raw.includes('hicham')) return false;
+                        item.server = findServerByRawName(item.rawName);
+                        return item.server !== null && item.server.id !== 'QUASSIR_HICHAM';
                       });
                     }
                     AppState.sessions.set(s.date, s);
@@ -403,7 +447,9 @@
 
       session.servers.forEach(item => {
         const s = item.server;
-        if (!s) return;
+        if (!s || s.id === 'QUASSIR_HICHAM') return;
+        const raw = String(item.rawName || "").toLowerCase();
+        if (raw.includes('quassir') || raw.includes('hicham')) return;
 
         const sId = s.id;
         if (!serverTotals.has(sId)) {
@@ -495,7 +541,9 @@
 
       session.servers.forEach(item => {
         const s = item.server;
-        if (!s) return;
+        if (!s || s.id === 'QUASSIR_HICHAM') return;
+        const raw = String(item.rawName || "").toLowerCase();
+        if (raw.includes('quassir') || raw.includes('hicham')) return;
         const sid = s.id;
 
         if (!serverMap.has(sid)) {
@@ -737,16 +785,44 @@
    */
   function renderMultiMonthSummary() {
     const summary = calculateMultiMonthSummary();
+    const thead = document.getElementById('cumul-table-thead');
     const tbody = document.getElementById('cumul-table-tbody');
     const tfoot = document.getElementById('cumul-table-tfoot');
     const mobileCards = document.getElementById('cumul-cards-mobile');
     const badge = document.getElementById('cumul-total-badge');
+    const periodLabel = document.getElementById('cumul-period-label');
 
     if (badge) badge.innerText = formatDH(summary.globalTeamNet);
 
+    // Mise à jour dynamique du libellé de période cumulée (ex: Août — Octobre)
+    if (periodLabel && summary.months.length > 0) {
+      const firstLabel = getShortMonthLabel(summary.months[0]);
+      const lastLabel = getShortMonthLabel(summary.months[summary.months.length - 1]);
+      periodLabel.innerText = `Recette Totale Cumulée (${firstLabel} — ${lastLabel})`;
+    }
+
+    // POINT 1 : Rendu 100% dynamique des en-têtes thead (supporte automatiquement Novembre, Décembre, etc.)
+    if (thead) {
+      const monthHeadersHtml = summary.months.map(ym => {
+        return `<th style="text-align: right;">${getMonthFullLabel(ym)}</th>`;
+      }).join('');
+
+      thead.innerHTML = `
+        <tr>
+          <th style="width: 45px; text-align: center;">Rang</th>
+          <th class="sticky-col">Serveur</th>
+          ${monthHeadersHtml}
+          <th style="text-align: right; color: var(--gold-light);">Total Cumulé</th>
+          <th style="text-align: center;">Part Globale</th>
+          <th style="text-align: right;">Moyenne/J</th>
+          <th style="text-align: center;">Jours</th>
+        </tr>
+      `;
+    }
+
     if (tbody) {
       if (summary.serversRanked.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding: 24px; color: var(--text-dim);">Aucune donnée cumulée disponible.</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="${4 + summary.months.length}" style="text-align:center; padding: 24px; color: var(--text-dim);">Aucune donnée cumulée disponible.</td></tr>`;
       } else {
         tbody.innerHTML = summary.serversRanked.map((entry, idx) => {
           const s = entry.server;
@@ -975,6 +1051,10 @@
     const labels = stats.serversRanked.map(e => e.server.displayName || e.server.name);
     const data = stats.serversRanked.map(e => e.totalNet);
 
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    const tickColor = isDark ? 'rgba(255, 255, 255, 0.75)' : '#334155';
+    const gridColor = isDark ? 'rgba(255, 255, 255, 0.06)' : 'rgba(15, 23, 42, 0.07)';
+
     const ctx = canvas.getContext('2d');
     AppState.chartInstance = new Chart(ctx, {
       type: 'bar',
@@ -983,8 +1063,8 @@
         datasets: [{
           label: 'Recette Totale (DH)',
           data: data,
-          backgroundColor: labels.map((_, i) => i === 0 ? 'rgba(201, 169, 110, 0.85)' : 'rgba(201, 169, 110, 0.35)'),
-          borderColor: 'rgba(201, 169, 110, 1)',
+          backgroundColor: labels.map((_, i) => i === 0 ? (isDark ? 'rgba(201, 169, 110, 0.85)' : 'rgba(166, 124, 51, 0.85)') : (isDark ? 'rgba(201, 169, 110, 0.35)' : 'rgba(166, 124, 51, 0.35)')),
+          borderColor: isDark ? 'rgba(201, 169, 110, 1)' : 'rgba(166, 124, 51, 1)',
           borderWidth: 1.5,
           borderRadius: 6
         }]
@@ -1003,8 +1083,8 @@
         scales: {
           x: {
             ticks: {
-              color: 'rgba(255, 255, 255, 0.7)',
-              font: { family: 'DM Sans', size: 11 },
+              color: tickColor,
+              font: { family: 'DM Sans', size: 11, weight: '500' },
               maxRotation: 45,
               minRotation: 0
             },
@@ -1012,11 +1092,11 @@
           },
           y: {
             ticks: {
-              color: 'rgba(255, 255, 255, 0.5)',
+              color: tickColor,
               font: { family: 'DM Sans', size: 11 },
               callback: (v) => v >= 1000 ? `${Math.round(v / 1000)}k` : v
             },
-            grid: { color: 'rgba(255, 255, 255, 0.05)' }
+            grid: { color: gridColor }
           }
         }
       }
@@ -1131,6 +1211,10 @@
       if (AppState.modalChartInstance) AppState.modalChartInstance.destroy();
 
       const mCtx = modalCanvas.getContext('2d');
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const mTickColor = isDark ? 'rgba(255,255,255,0.6)' : '#475569';
+      const mGridColor = isDark ? 'rgba(255,255,255,0.06)' : 'rgba(15, 23, 42, 0.08)';
+
       AppState.modalChartInstance = new Chart(mCtx, {
         type: 'line',
         data: {
@@ -1138,12 +1222,12 @@
           datasets: [{
             label: 'DH Net',
             data: amounts,
-            borderColor: '#C9A96E',
-            backgroundColor: 'rgba(201, 169, 110, 0.12)',
+            borderColor: isDark ? '#C9A96E' : '#a67c33',
+            backgroundColor: isDark ? 'rgba(201, 169, 110, 0.12)' : 'rgba(166, 124, 51, 0.12)',
             fill: true,
             tension: 0.3,
             borderWidth: 2,
-            pointBackgroundColor: '#C9A96E',
+            pointBackgroundColor: isDark ? '#C9A96E' : '#a67c33',
             pointRadius: dates.length > 20 ? 2 : 4
           }]
         },
@@ -1162,11 +1246,11 @@
           scales: {
             x: {
               grid: { display: false },
-              ticks: { color: 'rgba(255,255,255,0.4)', font: { size: 10 }, maxRotation: 45 }
+              ticks: { color: mTickColor, font: { size: 10, weight: '500' }, maxRotation: 45 }
             },
             y: {
-              grid: { color: 'rgba(255,255,255,0.05)' },
-              ticks: { color: 'rgba(255,255,255,0.4)', font: { size: 10 } }
+              grid: { color: mGridColor },
+              ticks: { color: mTickColor, font: { size: 10 } }
             }
           }
         }

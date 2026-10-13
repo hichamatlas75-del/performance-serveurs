@@ -54,14 +54,6 @@ window.SERVERS_CATALOG = [
     aliases: ["MOKHTAR", "MOUKHTAR", "MOKHTAR SERVEUR", "EL MOKHTAR", "MOKHTAR SERVICE"]
   },
   {
-    id: "QUASSIR_HICHAM",
-    name: "Quassir Hicham",
-    displayName: "Hicham Quassir",
-    role: "Responsable Salle",
-    photo: "images/QUASSIR_HICHAM.jpg",
-    aliases: ["QUASSIR", "HICHAM QUASSIR", "QUASSIR HICHAM", "HICHAM SALLE"]
-  },
-  {
     id: "EMP_GLOVO",
     name: "Commandes Glovo",
     displayName: "Commandes Glovo",
@@ -92,6 +84,11 @@ function findServerByRawName(rawName) {
   if (!rawName) return null;
   const clean = normalizeServerString(rawName);
   if (!clean || clean.length < 2) return null;
+
+  // 0. Exclusion stricte du responsable de salle / manager (non serveur)
+  if (clean.includes("quassir") || clean.includes("hicham")) {
+    return null;
+  }
 
   // 1. Recherche exacte ou alias
   for (const s of window.SERVERS_CATALOG) {

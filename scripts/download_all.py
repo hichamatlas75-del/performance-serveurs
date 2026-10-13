@@ -65,6 +65,8 @@ alias_map = {
 
 def resolve_server(raw):
     raw_clean = raw.strip().upper()
+    if 'QUASSIR' in raw_clean or 'HICHAM' in raw_clean:
+        return None
     for k, v in alias_map.items():
         if k in raw_clean:
             return v
@@ -95,19 +97,20 @@ for root, dirs, f_list in os.walk(data_dir):
                         if 'NET' in v.upper(): col_net = c
                     continue
                 srv_name = str(sh.cell_value(r, col_srv)).strip()
-                if not srv_name or srv_name.upper().startswith('CAISSIER') or srv_name.upper().startswith('TOTAL'):
+                if not srv_name or srv_name.upper().startswith('CAISSIER') or srv_name.upper().startswith('TOTAL') or 'QUASSIR' in srv_name.upper() or 'HICHAM' in srv_name.upper():
                     continue
                 try: net_val = float(sh.cell_value(r, col_net))
                 except: net_val = 0.0
                 if net_val > 0:
                     srv_obj = resolve_server(srv_name)
-                    servers_data.append({
-                        'server': srv_obj,
-                        'rawName': srv_name,
-                        'totalNet': round(net_val, 2),
-                        'tickets': 0
-                    })
-                    total_net += net_val
+                    if srv_obj is not None:
+                        servers_data.append({
+                            'server': srv_obj,
+                            'rawName': srv_name,
+                            'totalNet': round(net_val, 2),
+                            'tickets': 0
+                        })
+                        total_net += net_val
             all_sessions.append({
                 'fileName': f,
                 'date': date_str,

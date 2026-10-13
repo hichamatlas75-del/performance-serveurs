@@ -183,13 +183,15 @@ window.FlashParser = {
 
         if (netAmount > 0 || normServerName.length > 2) {
           const resolvedServer = findServerByRawName(rawServerName);
-          servers.push({
-            server: resolvedServer,
-            rawName: rawServerName,
-            totalNet: Math.round(netAmount * 100) / 100,
-            tickets: ticketsCount,
-            totalBrut: colBrut !== -1 ? this.parseNumericValue(row[colBrut]) : netAmount
-          });
+          if (resolvedServer) {
+            servers.push({
+              server: resolvedServer,
+              rawName: rawServerName,
+              totalNet: Math.round(netAmount * 100) / 100,
+              tickets: ticketsCount,
+              totalBrut: colBrut !== -1 ? this.parseNumericValue(row[colBrut]) : netAmount
+            });
+          }
         }
       }
     } else {
@@ -218,13 +220,15 @@ window.FlashParser = {
 
         if (foundName && foundNum) {
           const resolved = findServerByRawName(foundName);
-          servers.push({
-            server: resolved,
-            rawName: foundName,
-            totalNet: Math.round(foundNum * 100) / 100,
-            tickets: 0,
-            totalBrut: foundNum
-          });
+          if (resolved) {
+            servers.push({
+              server: resolved,
+              rawName: foundName,
+              totalNet: Math.round(foundNum * 100) / 100,
+              tickets: 0,
+              totalBrut: foundNum
+            });
+          }
         }
       }
     }

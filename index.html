@@ -43,6 +43,11 @@
           <select id="month-select" class="month-select"></select>
         </div>
 
+        <button id="btn-theme-toggle" class="btn btn-ghost" title="Basculer Mode Clair / Sombre">
+          <i class="fa-solid fa-moon"></i>
+          <span>Mode Sombre</span>
+        </button>
+
         <button id="btn-sync" class="btn btn-primary" title="Synchroniser avec GitHub">
           <i class="fa-solid fa-arrows-rotate"></i>
           <span>Synchroniser GitHub</span>
@@ -127,7 +132,7 @@
         </div>
         <div class="cumul-header-stats">
           <div class="cumul-stat-pill">
-            <span class="cumul-stat-lbl">Recette Totale Cumulée (Août - Octobre)</span>
+            <span class="cumul-stat-lbl" id="cumul-period-label">Recette Totale Cumulée (Août - Octobre)</span>
             <span id="cumul-total-badge" class="cumul-stat-val">0 DH</span>
           </div>
         </div>
@@ -136,7 +141,7 @@
       <!-- Vue Tableau Desktop avec scroll fluide et colonne sticky -->
       <div class="table-responsive multi-month-table-wrapper">
         <table class="table multi-month-table">
-          <thead>
+          <thead id="cumul-table-thead">
             <tr>
               <th style="width: 45px; text-align: center;">Rang</th>
               <th class="sticky-col">Serveur</th>
